@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_assoc_default import V0039AssocDefault
+from slurm_client.models.v0039_assoc_default import V0039AssocDefault
 
 # TODO update the JSON string below
 json = "{}"

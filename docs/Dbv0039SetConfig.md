@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.dbv0039_set_config import Dbv0039SetConfig
+from slurm_client.models.dbv0039_set_config import Dbv0039SetConfig
 
 # TODO update the JSON string below
 json = "{}"

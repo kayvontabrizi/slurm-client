@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_assoc_shares_obj_wrap_tres import V0040AssocSharesObjWrapTres
+from slurm_client.models.v0040_assoc_shares_obj_wrap_tres import V0040AssocSharesObjWrapTres
 
 class TestV0040AssocSharesObjWrapTres(unittest.TestCase):
     """V0040AssocSharesObjWrapTres unit test stubs"""
@@ -37,23 +37,23 @@ class TestV0040AssocSharesObjWrapTres(unittest.TestCase):
         if include_optional:
             return V0040AssocSharesObjWrapTres(
                 run_seconds = [
-                    openapi_client.models.v0/0/40_shares_uint64_tres.v0.0.40_shares_uint64_tres(
+                    slurm_client.models.v0/0/40_shares_uint64_tres.v0.0.40_shares_uint64_tres(
                         name = '', 
-                        value = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        value = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), )
                     ],
                 group_minutes = [
-                    openapi_client.models.v0/0/40_shares_uint64_tres.v0.0.40_shares_uint64_tres(
+                    slurm_client.models.v0/0/40_shares_uint64_tres.v0.0.40_shares_uint64_tres(
                         name = '', 
-                        value = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        value = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), )
                     ],
                 usage = [
-                    openapi_client.models.v0/0/40_shares_float128_tres.v0.0.40_shares_float128_tres(
+                    slurm_client.models.v0/0/40_shares_float128_tres.v0.0.40_shares_float128_tres(
                         name = '', 
                         value = 1.337, )
                     ]

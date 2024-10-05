@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_cluster_rec_controller import V0039ClusterRecController
+from slurm_client.models.v0039_cluster_rec_controller import V0039ClusterRecController
 
 # TODO update the JSON string below
 json = "{}"

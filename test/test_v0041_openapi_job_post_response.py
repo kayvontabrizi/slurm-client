@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_post_response import V0041OpenapiJobPostResponse
+from slurm_client.models.v0041_openapi_job_post_response import V0041OpenapiJobPostResponse
 
 class TestV0041OpenapiJobPostResponse(unittest.TestCase):
     """V0041OpenapiJobPostResponse unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0041OpenapiJobPostResponse(unittest.TestCase):
         if include_optional:
             return V0041OpenapiJobPostResponse(
                 results = [
-                    openapi_client.models.v0_0_41_openapi_job_post_response_results_inner.v0_0_41_openapi_job_post_response_results_inner(
+                    slurm_client.models.v0_0_41_openapi_job_post_response_results_inner.v0_0_41_openapi_job_post_response_results_inner(
                         job_id = 56, 
                         step_id = '', 
                         error = '', 
@@ -47,35 +47,35 @@ class TestV0041OpenapiJobPostResponse(unittest.TestCase):
                 job_id = '',
                 step_id = '',
                 job_submit_user_msg = '',
-                meta = openapi_client.models.v0_0_41_openapi_shares_resp_meta.v0_0_41_openapi_shares_resp_meta(
-                    plugin = openapi_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
+                meta = slurm_client.models.v0_0_41_openapi_shares_resp_meta.v0_0_41_openapi_shares_resp_meta(
+                    plugin = slurm_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
                         type = '', 
                         name = '', 
                         data_parser = '', 
                         accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
+                    client = slurm_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
                         source = '', 
                         user = '', 
                         group = '', ), 
                     command = [
                         ''
                         ], 
-                    slurm = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
-                        version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                    slurm = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
+                        version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), 
                         release = '', 
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_errors_inner.v0_0_41_openapi_shares_resp_errors_inner(
+                    slurm_client.models.v0_0_41_openapi_shares_resp_errors_inner.v0_0_41_openapi_shares_resp_errors_inner(
                         description = '', 
                         error_number = 56, 
                         error = '', 
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_warnings_inner.v0_0_41_openapi_shares_resp_warnings_inner(
+                    slurm_client.models.v0_0_41_openapi_shares_resp_warnings_inner.v0_0_41_openapi_shares_resp_warnings_inner(
                         description = '', 
                         source = '', )
                     ]

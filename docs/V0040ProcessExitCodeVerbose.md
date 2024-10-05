@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0040_process_exit_code_verbose import V0040ProcessExitCodeVerbose
+from slurm_client.models.v0040_process_exit_code_verbose import V0040ProcessExitCodeVerbose
 
 # TODO update the JSON string below
 json = "{}"

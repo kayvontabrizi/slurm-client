@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_stats_msg import V0039StatsMsg
+from slurm_client.models.v0039_stats_msg import V0039StatsMsg
 
 class TestV0039StatsMsg(unittest.TestCase):
     """V0039StatsMsg unit test stubs"""
@@ -81,7 +81,7 @@ class TestV0039StatsMsg(unittest.TestCase):
                 bf_when_last_cycle = 56,
                 bf_active = True,
                 rpcs_by_message_type = [
-                    openapi_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
+                    slurm_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
                         message_type = '', 
                         type_id = 56, 
                         count = 56, 
@@ -89,7 +89,7 @@ class TestV0039StatsMsg(unittest.TestCase):
                         total_time = 56, )
                     ],
                 rpcs_by_user = [
-                    openapi_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
+                    slurm_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
                         user = '', 
                         user_id = 56, 
                         count = 56, 

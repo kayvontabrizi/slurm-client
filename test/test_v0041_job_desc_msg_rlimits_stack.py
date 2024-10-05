@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_rlimits_stack import V0041JobDescMsgRlimitsStack
+from slurm_client.models.v0041_job_desc_msg_rlimits_stack import V0041JobDescMsgRlimitsStack
 
 class TestV0041JobDescMsgRlimitsStack(unittest.TestCase):
     """V0041JobDescMsgRlimitsStack unit test stubs"""

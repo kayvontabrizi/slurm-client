@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_diag_resp import V0040OpenapiDiagResp
+from slurm_client.models.v0040_openapi_diag_resp import V0040OpenapiDiagResp
 
 class TestV0040OpenapiDiagResp(unittest.TestCase):
     """V0040OpenapiDiagResp unit test stubs"""
@@ -36,13 +36,13 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
         model = V0040OpenapiDiagResp()
         if include_optional:
             return V0040OpenapiDiagResp(
-                statistics = openapi_client.models.v0/0/40_stats_msg.v0.0.40_stats_msg(
+                statistics = slurm_client.models.v0/0/40_stats_msg.v0.0.40_stats_msg(
                     parts_packed = 56, 
-                    req_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    req_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    req_time_start = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    req_time_start = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -59,7 +59,7 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
                     schedule_cycle_mean_depth = 56, 
                     schedule_cycle_per_minute = 56, 
                     schedule_queue_length = 56, 
-                    schedule_exit = openapi_client.models.v0/0/40_schedule_exit_fields.v0.0.40_schedule_exit_fields(
+                    schedule_exit = slurm_client.models.v0/0/40_schedule_exit_fields.v0.0.40_schedule_exit_fields(
                         end_job_queue = 56, 
                         default_queue_depth = 56, 
                         max_job_start = 56, 
@@ -94,7 +94,7 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
                     bf_table_size_mean = 56, 
                     bf_when_last_cycle = , 
                     bf_active = True, 
-                    bf_exit = openapi_client.models.v0/0/40_bf_exit_fields.v0.0.40_bf_exit_fields(
+                    bf_exit = slurm_client.models.v0/0/40_bf_exit_fields.v0.0.40_bf_exit_fields(
                         end_job_queue = 56, 
                         bf_max_job_start = 56, 
                         bf_max_job_test = 56, 
@@ -102,7 +102,7 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
                         bf_node_space_size = 56, 
                         state_changed = 56, ), 
                     rpcs_by_message_type = [
-                        openapi_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
+                        slurm_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
                             message_type = '', 
                             type_id = 56, 
                             count = 56, 
@@ -110,55 +110,55 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
                             total_time = 56, )
                         ], 
                     rpcs_by_user = [
-                        openapi_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
+                        slurm_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
                             user = '', 
                             user_id = 56, 
                             count = 56, 
                             average_time = 56, 
                             total_time = 56, )
                         ], ),
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
+                meta = slurm_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = slurm_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
                         type = '', 
                         name = '', 
                         data_parser = '', 
                         accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
+                    client = slurm_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
                         source = '', 
                         user = '', 
                         group = '', ), 
                     command = [
                         ''
                         ], 
-                    slurm = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
-                        version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                    slurm = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
+                        version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), 
                         release = '', 
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                    slurm_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
                         description = '', 
                         error_number = 56, 
                         error = '', 
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                    slurm_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
                         description = '', 
                         source = '', )
                     ]
             )
         else:
             return V0040OpenapiDiagResp(
-                statistics = openapi_client.models.v0/0/40_stats_msg.v0.0.40_stats_msg(
+                statistics = slurm_client.models.v0/0/40_stats_msg.v0.0.40_stats_msg(
                     parts_packed = 56, 
-                    req_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    req_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    req_time_start = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    req_time_start = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -175,7 +175,7 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
                     schedule_cycle_mean_depth = 56, 
                     schedule_cycle_per_minute = 56, 
                     schedule_queue_length = 56, 
-                    schedule_exit = openapi_client.models.v0/0/40_schedule_exit_fields.v0.0.40_schedule_exit_fields(
+                    schedule_exit = slurm_client.models.v0/0/40_schedule_exit_fields.v0.0.40_schedule_exit_fields(
                         end_job_queue = 56, 
                         default_queue_depth = 56, 
                         max_job_start = 56, 
@@ -210,7 +210,7 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
                     bf_table_size_mean = 56, 
                     bf_when_last_cycle = , 
                     bf_active = True, 
-                    bf_exit = openapi_client.models.v0/0/40_bf_exit_fields.v0.0.40_bf_exit_fields(
+                    bf_exit = slurm_client.models.v0/0/40_bf_exit_fields.v0.0.40_bf_exit_fields(
                         end_job_queue = 56, 
                         bf_max_job_start = 56, 
                         bf_max_job_test = 56, 
@@ -218,7 +218,7 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
                         bf_node_space_size = 56, 
                         state_changed = 56, ), 
                     rpcs_by_message_type = [
-                        openapi_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
+                        slurm_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
                             message_type = '', 
                             type_id = 56, 
                             count = 56, 
@@ -226,7 +226,7 @@ class TestV0040OpenapiDiagResp(unittest.TestCase):
                             total_time = 56, )
                         ], 
                     rpcs_by_user = [
-                        openapi_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
+                        slurm_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
                             user = '', 
                             user_id = 56, 
                             count = 56, 

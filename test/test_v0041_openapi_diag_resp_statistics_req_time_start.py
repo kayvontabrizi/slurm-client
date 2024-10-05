@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_req_time_start import V0041OpenapiDiagRespStatisticsReqTimeStart
+from slurm_client.models.v0041_openapi_diag_resp_statistics_req_time_start import V0041OpenapiDiagRespStatisticsReqTimeStart
 
 class TestV0041OpenapiDiagRespStatisticsReqTimeStart(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsReqTimeStart unit test stubs"""

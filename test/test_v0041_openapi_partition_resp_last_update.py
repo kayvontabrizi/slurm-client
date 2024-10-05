@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_last_update import V0041OpenapiPartitionRespLastUpdate
+from slurm_client.models.v0041_openapi_partition_resp_last_update import V0041OpenapiPartitionRespLastUpdate
 
 class TestV0041OpenapiPartitionRespLastUpdate(unittest.TestCase):
     """V0041OpenapiPartitionRespLastUpdate unit test stubs"""

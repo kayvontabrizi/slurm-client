@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_preemptable_time import V0041OpenapiJobInfoRespJobsInnerPreemptableTime
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_preemptable_time import V0041OpenapiJobInfoRespJobsInnerPreemptableTime
 
 class TestV0041OpenapiJobInfoRespJobsInnerPreemptableTime(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerPreemptableTime unit test stubs"""

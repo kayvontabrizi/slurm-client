@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_cluster_rec_associations import V0039ClusterRecAssociations
+from slurm_client.models.v0039_cluster_rec_associations import V0039ClusterRecAssociations
 
 class TestV0039ClusterRecAssociations(unittest.TestCase):
     """V0039ClusterRecAssociations unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0039ClusterRecAssociations(unittest.TestCase):
         model = V0039ClusterRecAssociations()
         if include_optional:
             return V0039ClusterRecAssociations(
-                root = openapi_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
+                root = slurm_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
                     account = '', 
                     cluster = '', 
                     partition = '', 

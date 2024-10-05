@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_step_tres import V0039StepTres
+from slurm_client.models.v0039_step_tres import V0039StepTres
 
 class TestV0039StepTres(unittest.TestCase):
     """V0039StepTres unit test stubs"""
@@ -36,16 +36,16 @@ class TestV0039StepTres(unittest.TestCase):
         model = V0039StepTres()
         if include_optional:
             return V0039StepTres(
-                requested = openapi_client.models.v0_0_39_step_tres_requested.v0_0_39_step_tres_requested(
+                requested = slurm_client.models.v0_0_39_step_tres_requested.v0_0_39_step_tres_requested(
                     max = [
-                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                             type = '', 
                             name = '', 
                             id = 56, 
                             count = 56, )
                         ], 
                     min = [
-                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                             type = '', 
                             name = '', 
                             id = 56, 
@@ -57,16 +57,16 @@ class TestV0039StepTres(unittest.TestCase):
                     total = [
                         
                         ], ),
-                consumed = openapi_client.models.v0_0_39_step_tres_consumed.v0_0_39_step_tres_consumed(
+                consumed = slurm_client.models.v0_0_39_step_tres_consumed.v0_0_39_step_tres_consumed(
                     max = [
-                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                             type = '', 
                             name = '', 
                             id = 56, 
                             count = 56, )
                         ], 
                     min = [
-                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                             type = '', 
                             name = '', 
                             id = 56, 
@@ -79,7 +79,7 @@ class TestV0039StepTres(unittest.TestCase):
                         
                         ], ),
                 allocated = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 

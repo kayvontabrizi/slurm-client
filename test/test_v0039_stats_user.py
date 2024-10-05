@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_stats_user import V0039StatsUser
+from slurm_client.models.v0039_stats_user import V0039StatsUser
 
 class TestV0039StatsUser(unittest.TestCase):
     """V0039StatsUser unit test stubs"""
@@ -38,7 +38,7 @@ class TestV0039StatsUser(unittest.TestCase):
             return V0039StatsUser(
                 user = '',
                 count = 56,
-                time = openapi_client.models.v0_0_39_stats_rpc_time.v0_0_39_stats_rpc_time(
+                time = slurm_client.models.v0_0_39_stats_rpc_time.v0_0_39_stats_rpc_time(
                     average = 56, 
                     total = 56, )
             )

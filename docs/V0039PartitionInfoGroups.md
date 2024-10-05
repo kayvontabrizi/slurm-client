@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_partition_info_groups import V0039PartitionInfoGroups
+from slurm_client.models.v0039_partition_info_groups import V0039PartitionInfoGroups
 
 # TODO update the JSON string below
 json = "{}"

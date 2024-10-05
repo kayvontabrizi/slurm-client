@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_resp import V0040OpenapiResp
+from slurm_client.models.v0040_openapi_resp import V0040OpenapiResp
 
 class TestV0040OpenapiResp(unittest.TestCase):
     """V0040OpenapiResp unit test stubs"""
@@ -36,35 +36,35 @@ class TestV0040OpenapiResp(unittest.TestCase):
         model = V0040OpenapiResp()
         if include_optional:
             return V0040OpenapiResp(
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
+                meta = slurm_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = slurm_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
                         type = '', 
                         name = '', 
                         data_parser = '', 
                         accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
+                    client = slurm_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
                         source = '', 
                         user = '', 
                         group = '', ), 
                     command = [
                         ''
                         ], 
-                    slurm = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
-                        version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                    slurm = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
+                        version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), 
                         release = '', 
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                    slurm_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
                         description = '', 
                         error_number = 56, 
                         error = '', 
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                    slurm_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
                         description = '', 
                         source = '', )
                     ]

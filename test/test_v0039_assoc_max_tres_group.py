@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_assoc_max_tres_group import V0039AssocMaxTresGroup
+from slurm_client.models.v0039_assoc_max_tres_group import V0039AssocMaxTresGroup
 
 class TestV0039AssocMaxTresGroup(unittest.TestCase):
     """V0039AssocMaxTresGroup unit test stubs"""
@@ -37,14 +37,14 @@ class TestV0039AssocMaxTresGroup(unittest.TestCase):
         if include_optional:
             return V0039AssocMaxTresGroup(
                 minutes = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 
                         count = 56, )
                     ],
                 active = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 

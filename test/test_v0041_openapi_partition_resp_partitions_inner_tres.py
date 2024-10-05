@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_tres import V0041OpenapiPartitionRespPartitionsInnerTres
+from slurm_client.models.v0041_openapi_partition_resp_partitions_inner_tres import V0041OpenapiPartitionRespPartitionsInnerTres
 
 class TestV0041OpenapiPartitionRespPartitionsInnerTres(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerTres unit test stubs"""

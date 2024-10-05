@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_minimum_cpus_per_node import V0041OpenapiJobInfoRespJobsInnerMinimumCpusPerNode
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_minimum_cpus_per_node import V0041OpenapiJobInfoRespJobsInnerMinimumCpusPerNode
 
 class TestV0041OpenapiJobInfoRespJobsInnerMinimumCpusPerNode(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerMinimumCpusPerNode unit test stubs"""

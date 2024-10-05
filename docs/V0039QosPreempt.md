@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_qos_preempt import V0039QosPreempt
+from slurm_client.models.v0039_qos_preempt import V0039QosPreempt
 
 # TODO update the JSON string below
 json = "{}"

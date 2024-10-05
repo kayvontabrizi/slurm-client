@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_submit_response_msg import V0040JobSubmitResponseMsg
+from slurm_client.models.v0040_job_submit_response_msg import V0040JobSubmitResponseMsg
 
 class TestV0040JobSubmitResponseMsg(unittest.TestCase):
     """V0040JobSubmitResponseMsg unit test stubs"""

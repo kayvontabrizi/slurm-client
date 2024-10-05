@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_schedule_exit import V0041OpenapiDiagRespStatisticsScheduleExit
+from slurm_client.models.v0041_openapi_diag_resp_statistics_schedule_exit import V0041OpenapiDiagRespStatisticsScheduleExit
 
 class TestV0041OpenapiDiagRespStatisticsScheduleExit(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsScheduleExit unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_diag import Dbv0039Diag
+from slurm_client.models.dbv0039_diag import Dbv0039Diag
 
 class TestDbv0039Diag(unittest.TestCase):
     """Dbv0039Diag unit test stubs"""
@@ -36,33 +36,33 @@ class TestDbv0039Diag(unittest.TestCase):
         model = Dbv0039Diag()
         if include_optional:
             return Dbv0039Diag(
-                meta = openapi_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.dbv0/0/39_error.dbv0.0.39_error(
+                    slurm_client.models.dbv0/0/39_error.dbv0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
+                    slurm_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
-                statistics = openapi_client.models.v0/0/39_stats_rec.v0.0.39_stats_rec(
+                statistics = slurm_client.models.v0/0/39_stats_rec.v0.0.39_stats_rec(
                     time_start = 56, 
                     rollups = [
-                        openapi_client.models.v0_0_39_rollup_stats_inner.v0_0_39_rollup_stats_inner(
+                        slurm_client.models.v0_0_39_rollup_stats_inner.v0_0_39_rollup_stats_inner(
                             type = 'internal', 
                             last_run = 56, 
                             max_cycle = 56, 
@@ -71,15 +71,15 @@ class TestDbv0039Diag(unittest.TestCase):
                             mean_cycles = 56, )
                         ], 
                     rpcs = [
-                        openapi_client.models.v0/0/39_stats_rpc.v0.0.39_stats_rpc(
+                        slurm_client.models.v0/0/39_stats_rpc.v0.0.39_stats_rpc(
                             rpc = '', 
                             count = 56, 
-                            time = openapi_client.models.v0_0_39_stats_rpc_time.v0_0_39_stats_rpc_time(
+                            time = slurm_client.models.v0_0_39_stats_rpc_time.v0_0_39_stats_rpc_time(
                                 average = 56, 
                                 total = 56, ), )
                         ], 
                     users = [
-                        openapi_client.models.v0/0/39_stats_user.v0.0.39_stats_user(
+                        slurm_client.models.v0/0/39_stats_user.v0.0.39_stats_user(
                             user = '', 
                             count = 56, )
                         ], )

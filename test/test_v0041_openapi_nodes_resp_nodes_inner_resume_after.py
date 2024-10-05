@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_nodes_resp_nodes_inner_resume_after import V0041OpenapiNodesRespNodesInnerResumeAfter
+from slurm_client.models.v0041_openapi_nodes_resp_nodes_inner_resume_after import V0041OpenapiNodesRespNodesInnerResumeAfter
 
 class TestV0041OpenapiNodesRespNodesInnerResumeAfter(unittest.TestCase):
     """V0041OpenapiNodesRespNodesInnerResumeAfter unit test stubs"""

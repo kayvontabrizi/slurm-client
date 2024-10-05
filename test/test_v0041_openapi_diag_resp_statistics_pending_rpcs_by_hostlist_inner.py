@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_pending_rpcs_by_hostlist_inner import V0041OpenapiDiagRespStatisticsPendingRpcsByHostlistInner
+from slurm_client.models.v0041_openapi_diag_resp_statistics_pending_rpcs_by_hostlist_inner import V0041OpenapiDiagRespStatisticsPendingRpcsByHostlistInner
 
 class TestV0041OpenapiDiagRespStatisticsPendingRpcsByHostlistInner(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsPendingRpcsByHostlistInner unit test stubs"""

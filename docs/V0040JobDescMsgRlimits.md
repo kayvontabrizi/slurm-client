@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0040_job_desc_msg_rlimits import V0040JobDescMsgRlimits
+from slurm_client.models.v0040_job_desc_msg_rlimits import V0040JobDescMsgRlimits
 
 # TODO update the JSON string below
 json = "{}"

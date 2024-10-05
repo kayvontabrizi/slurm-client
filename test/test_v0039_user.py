@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_user import V0039User
+from slurm_client.models.v0039_user import V0039User
 
 class TestV0039User(unittest.TestCase):
     """V0039User unit test stubs"""
@@ -40,18 +40,18 @@ class TestV0039User(unittest.TestCase):
                     'Not Set'
                     ],
                 associations = [
-                    openapi_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
+                    slurm_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
                         account = '', 
                         cluster = '', 
                         partition = '', 
                         user = '', )
                     ],
                 coordinators = [
-                    openapi_client.models.v0/0/39_coord.v0.0.39_coord(
+                    slurm_client.models.v0/0/39_coord.v0.0.39_coord(
                         name = '', 
                         direct = True, )
                     ],
-                default = openapi_client.models.v0_0_39_user_default.v0_0_39_user_default(
+                default = slurm_client.models.v0_0_39_user_default.v0_0_39_user_default(
                     account = '', 
                     wckey = '', ),
                 flags = [
@@ -60,14 +60,14 @@ class TestV0039User(unittest.TestCase):
                 name = '',
                 old_name = '',
                 wckeys = [
-                    openapi_client.models.v0/0/39_wckey.v0.0.39_wckey(
+                    slurm_client.models.v0/0/39_wckey.v0.0.39_wckey(
                         accounting = [
-                            openapi_client.models.v0/0/39_accounting.v0.0.39_accounting(
-                                allocated = openapi_client.models.v0_0_39_accounting_allocated.v0_0_39_accounting_allocated(
+                            slurm_client.models.v0/0/39_accounting.v0.0.39_accounting(
+                                allocated = slurm_client.models.v0_0_39_accounting_allocated.v0_0_39_accounting_allocated(
                                     seconds = 56, ), 
                                 id = 56, 
                                 start = 56, 
-                                tres = openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                                tres = slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                     type = '', 
                                     name = '', 
                                     id = 56, 

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time import V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInnerAverageTime
+from slurm_client.models.v0041_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time import V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInnerAverageTime
 
 # TODO update the JSON string below
 json = "{}"

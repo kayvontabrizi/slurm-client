@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_cluster_rec import V0039ClusterRec
+from slurm_client.models.v0039_cluster_rec import V0039ClusterRec
 
 # TODO update the JSON string below
 json = "{}"

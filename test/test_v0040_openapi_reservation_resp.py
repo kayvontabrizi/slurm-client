@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_reservation_resp import V0040OpenapiReservationResp
+from slurm_client.models.v0040_openapi_reservation_resp import V0040OpenapiReservationResp
 
 class TestV0040OpenapiReservationResp(unittest.TestCase):
     """V0040OpenapiReservationResp unit test stubs"""
@@ -37,16 +37,16 @@ class TestV0040OpenapiReservationResp(unittest.TestCase):
         if include_optional:
             return V0040OpenapiReservationResp(
                 reservations = [
-                    openapi_client.models.v0/0/40_reservation_info.v0.0.40_reservation_info(
+                    slurm_client.models.v0/0/40_reservation_info.v0.0.40_reservation_info(
                         accounts = '', 
                         burst_buffer = '', 
                         core_count = 56, 
                         core_specializations = [
-                            openapi_client.models.v0/0/40_reservation_core_spec.v0.0.40_reservation_core_spec(
+                            slurm_client.models.v0/0/40_reservation_core_spec.v0.0.40_reservation_core_spec(
                                 node = '', 
                                 core = '', )
                             ], 
-                        end_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        end_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -61,55 +61,55 @@ class TestV0040OpenapiReservationResp(unittest.TestCase):
                         node_count = 56, 
                         node_list = '', 
                         partition = '', 
-                        purge_completed = openapi_client.models.v0_0_40_reservation_info_purge_completed.v0_0_40_reservation_info_purge_completed(
-                            time = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        purge_completed = slurm_client.models.v0_0_40_reservation_info_purge_completed.v0_0_40_reservation_info_purge_completed(
+                            time = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), ), 
-                        start_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        start_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        watts = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        watts = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         tres = '', 
                         users = '', )
                     ],
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
+                meta = slurm_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = slurm_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
                         type = '', 
                         name = '', 
                         data_parser = '', 
                         accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
+                    client = slurm_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
                         source = '', 
                         user = '', 
                         group = '', ), 
                     command = [
                         ''
                         ], 
-                    slurm = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
-                        version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                    slurm = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
+                        version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), 
                         release = '', 
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                    slurm_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
                         description = '', 
                         error_number = 56, 
                         error = '', 
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                    slurm_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
                         description = '', 
                         source = '', )
                     ]
@@ -117,16 +117,16 @@ class TestV0040OpenapiReservationResp(unittest.TestCase):
         else:
             return V0040OpenapiReservationResp(
                 reservations = [
-                    openapi_client.models.v0/0/40_reservation_info.v0.0.40_reservation_info(
+                    slurm_client.models.v0/0/40_reservation_info.v0.0.40_reservation_info(
                         accounts = '', 
                         burst_buffer = '', 
                         core_count = 56, 
                         core_specializations = [
-                            openapi_client.models.v0/0/40_reservation_core_spec.v0.0.40_reservation_core_spec(
+                            slurm_client.models.v0/0/40_reservation_core_spec.v0.0.40_reservation_core_spec(
                                 node = '', 
                                 core = '', )
                             ], 
-                        end_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        end_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -141,23 +141,23 @@ class TestV0040OpenapiReservationResp(unittest.TestCase):
                         node_count = 56, 
                         node_list = '', 
                         partition = '', 
-                        purge_completed = openapi_client.models.v0_0_40_reservation_info_purge_completed.v0_0_40_reservation_info_purge_completed(
-                            time = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        purge_completed = slurm_client.models.v0_0_40_reservation_info_purge_completed.v0_0_40_reservation_info_purge_completed(
+                            time = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), ), 
-                        start_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        start_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        watts = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        watts = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         tres = '', 
                         users = '', )
                     ],
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_suspend_time import V0041OpenapiJobInfoRespJobsInnerSuspendTime
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_suspend_time import V0041OpenapiJobInfoRespJobsInnerSuspendTime
 
 class TestV0041OpenapiJobInfoRespJobsInnerSuspendTime(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerSuspendTime unit test stubs"""

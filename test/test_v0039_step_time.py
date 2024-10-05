@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_step_time import V0039StepTime
+from slurm_client.models.v0039_step_time import V0039StepTime
 
 class TestV0039StepTime(unittest.TestCase):
     """V0039StepTime unit test stubs"""
@@ -40,13 +40,13 @@ class TestV0039StepTime(unittest.TestCase):
                 end = 56,
                 start = 56,
                 suspended = 56,
-                system = openapi_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
+                system = slurm_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
                     seconds = 56, 
                     microseconds = 56, ),
-                total = openapi_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
+                total = slurm_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
                     seconds = 56, 
                     microseconds = 56, ),
-                user = openapi_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
+                user = slurm_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
                     seconds = 56, 
                     microseconds = 56, )
             )

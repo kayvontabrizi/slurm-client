@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_kill_jobs_resp_status_inner_federation import V0041OpenapiKillJobsRespStatusInnerFederation
+from slurm_client.models.v0041_openapi_kill_jobs_resp_status_inner_federation import V0041OpenapiKillJobsRespStatusInnerFederation
 
 class TestV0041OpenapiKillJobsRespStatusInnerFederation(unittest.TestCase):
     """V0041OpenapiKillJobsRespStatusInnerFederation unit test stubs"""

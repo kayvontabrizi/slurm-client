@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_job_array import V0039JobArray
+from slurm_client.models.v0039_job_array import V0039JobArray
 
 class TestV0039JobArray(unittest.TestCase):
     """V0039JobArray unit test stubs"""
@@ -37,11 +37,11 @@ class TestV0039JobArray(unittest.TestCase):
         if include_optional:
             return V0039JobArray(
                 job_id = 56,
-                limits = openapi_client.models.v0_0_39_job_array_limits.v0_0_39_job_array_limits(
-                    max = openapi_client.models.v0_0_39_job_array_limits_max.v0_0_39_job_array_limits_max(
-                        running = openapi_client.models.v0_0_39_job_array_limits_max_running.v0_0_39_job_array_limits_max_running(
+                limits = slurm_client.models.v0_0_39_job_array_limits.v0_0_39_job_array_limits(
+                    max = slurm_client.models.v0_0_39_job_array_limits_max.v0_0_39_job_array_limits_max(
+                        running = slurm_client.models.v0_0_39_job_array_limits_max_running.v0_0_39_job_array_limits_max_running(
                             tasks = 56, ), ), ),
-                task_id = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                task_id = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

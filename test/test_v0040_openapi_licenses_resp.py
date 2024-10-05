@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_licenses_resp import V0040OpenapiLicensesResp
+from slurm_client.models.v0040_openapi_licenses_resp import V0040OpenapiLicensesResp
 
 class TestV0040OpenapiLicensesResp(unittest.TestCase):
     """V0040OpenapiLicensesResp unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0040OpenapiLicensesResp(unittest.TestCase):
         if include_optional:
             return V0040OpenapiLicensesResp(
                 licenses = [
-                    openapi_client.models.v0/0/40_license.v0.0.40_license(
+                    slurm_client.models.v0/0/40_license.v0.0.40_license(
                         license_name = '', 
                         total = 56, 
                         used = 56, 
@@ -48,39 +48,39 @@ class TestV0040OpenapiLicensesResp(unittest.TestCase):
                         last_deficit = 56, 
                         last_update = 56, )
                     ],
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
+                meta = slurm_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = slurm_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
                         type = '', 
                         name = '', 
                         data_parser = '', 
                         accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
+                    client = slurm_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
                         source = '', 
                         user = '', 
                         group = '', ), 
                     command = [
                         ''
                         ], 
-                    slurm = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
-                        version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                    slurm = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
+                        version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), 
                         release = '', 
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                    slurm_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
                         description = '', 
                         error_number = 56, 
                         error = '', 
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                    slurm_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
                         description = '', 
                         source = '', )
                     ]
@@ -88,7 +88,7 @@ class TestV0040OpenapiLicensesResp(unittest.TestCase):
         else:
             return V0040OpenapiLicensesResp(
                 licenses = [
-                    openapi_client.models.v0/0/40_license.v0.0.40_license(
+                    slurm_client.models.v0/0/40_license.v0.0.40_license(
                         license_name = '', 
                         total = 56, 
                         used = 56, 
@@ -99,7 +99,7 @@ class TestV0040OpenapiLicensesResp(unittest.TestCase):
                         last_deficit = 56, 
                         last_update = 56, )
                     ],
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

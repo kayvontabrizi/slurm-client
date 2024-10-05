@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_minimum_tmp_disk_per_node import V0041OpenapiJobInfoRespJobsInnerMinimumTmpDiskPerNode
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_minimum_tmp_disk_per_node import V0041OpenapiJobInfoRespJobsInnerMinimumTmpDiskPerNode
 
 class TestV0041OpenapiJobInfoRespJobsInnerMinimumTmpDiskPerNode(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerMinimumTmpDiskPerNode unit test stubs"""

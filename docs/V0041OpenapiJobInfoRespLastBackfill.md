@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_last_backfill import V0041OpenapiJobInfoRespLastBackfill
+from slurm_client.models.v0041_openapi_job_info_resp_last_backfill import V0041OpenapiJobInfoRespLastBackfill
 
 # TODO update the JSON string below
 json = "{}"

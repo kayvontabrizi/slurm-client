@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_max_cpus import V0041OpenapiJobInfoRespJobsInnerMaxCpus
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_max_cpus import V0041OpenapiJobInfoRespJobsInnerMaxCpus
 
 class TestV0041OpenapiJobInfoRespJobsInnerMaxCpus(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerMaxCpus unit test stubs"""

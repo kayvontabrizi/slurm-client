@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_step_step import V0039StepStep
+from slurm_client.models.v0039_step_step import V0039StepStep
 
 class TestV0039StepStep(unittest.TestCase):
     """V0039StepStep unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0039StepStep(unittest.TestCase):
         model = V0039StepStep()
         if include_optional:
             return V0039StepStep(
-                id = openapi_client.models.v0/0/39_slurm_step_id.v0.0.39_slurm_step_id(
+                id = slurm_client.models.v0/0/39_slurm_step_id.v0.0.39_slurm_step_id(
                     job_id = 56, 
                     step_het_component = 56, 
                     step_id = '', ),

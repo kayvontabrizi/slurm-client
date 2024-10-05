@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_defaults_time import V0041OpenapiPartitionRespPartitionsInnerDefaultsTime
+from slurm_client.models.v0041_openapi_partition_resp_partitions_inner_defaults_time import V0041OpenapiPartitionRespPartitionsInnerDefaultsTime
 
 # TODO update the JSON string below
 json = "{}"

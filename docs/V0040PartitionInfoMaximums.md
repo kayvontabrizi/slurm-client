@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_maximums import V0040PartitionInfoMaximums
+from slurm_client.models.v0040_partition_info_maximums import V0040PartitionInfoMaximums
 
 # TODO update the JSON string below
 json = "{}"

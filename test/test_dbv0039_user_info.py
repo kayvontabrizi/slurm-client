@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_user_info import Dbv0039UserInfo
+from slurm_client.models.dbv0039_user_info import Dbv0039UserInfo
 
 class TestDbv0039UserInfo(unittest.TestCase):
     """Dbv0039UserInfo unit test stubs"""
@@ -36,47 +36,47 @@ class TestDbv0039UserInfo(unittest.TestCase):
         model = Dbv0039UserInfo()
         if include_optional:
             return Dbv0039UserInfo(
-                meta = openapi_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.dbv0/0/39_error.dbv0.0.39_error(
+                    slurm_client.models.dbv0/0/39_error.dbv0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
+                    slurm_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
                 users = [
-                    openapi_client.models.v0/0/39_user.v0.0.39_user(
+                    slurm_client.models.v0/0/39_user.v0.0.39_user(
                         administrator_level = [
                             'Not Set'
                             ], 
                         associations = [
-                            openapi_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
+                            slurm_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
                                 account = '', 
                                 cluster = '', 
                                 partition = '', 
                                 user = '', )
                             ], 
                         coordinators = [
-                            openapi_client.models.v0/0/39_coord.v0.0.39_coord(
+                            slurm_client.models.v0/0/39_coord.v0.0.39_coord(
                                 name = '', 
                                 direct = True, )
                             ], 
-                        default = openapi_client.models.v0_0_39_user_default.v0_0_39_user_default(
+                        default = slurm_client.models.v0_0_39_user_default.v0_0_39_user_default(
                             account = '', 
                             wckey = '', ), 
                         flags = [
@@ -85,14 +85,14 @@ class TestDbv0039UserInfo(unittest.TestCase):
                         name = '', 
                         old_name = '', 
                         wckeys = [
-                            openapi_client.models.v0/0/39_wckey.v0.0.39_wckey(
+                            slurm_client.models.v0/0/39_wckey.v0.0.39_wckey(
                                 accounting = [
-                                    openapi_client.models.v0/0/39_accounting.v0.0.39_accounting(
-                                        allocated = openapi_client.models.v0_0_39_accounting_allocated.v0_0_39_accounting_allocated(
+                                    slurm_client.models.v0/0/39_accounting.v0.0.39_accounting(
+                                        allocated = slurm_client.models.v0_0_39_accounting_allocated.v0_0_39_accounting_allocated(
                                             seconds = 56, ), 
                                         id = 56, 
                                         start = 56, 
-                                        tres = openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                                        tres = slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                             type = '', 
                                             name = '', 
                                             id = 56, 

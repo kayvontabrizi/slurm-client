@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_partition_info_minimums import V0039PartitionInfoMinimums
+from slurm_client.models.v0039_partition_info_minimums import V0039PartitionInfoMinimums
 
 class TestV0039PartitionInfoMinimums(unittest.TestCase):
     """V0039PartitionInfoMinimums unit test stubs"""

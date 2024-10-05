@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_diag import V0039Diag
+from slurm_client.models.v0039_diag import V0039Diag
 
 class TestV0039Diag(unittest.TestCase):
     """V0039Diag unit test stubs"""
@@ -36,30 +36,30 @@ class TestV0039Diag(unittest.TestCase):
         model = V0039Diag()
         if include_optional:
             return V0039Diag(
-                meta = openapi_client.models.v0/0/39_meta.v0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.v0/0/39_meta.v0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/39_error.v0.0.39_error(
+                    slurm_client.models.v0/0/39_error.v0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/39_warning.v0.0.39_warning(
+                    slurm_client.models.v0/0/39_warning.v0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
-                statistics = openapi_client.models.v0/0/39_stats_msg.v0.0.39_stats_msg(
+                statistics = slurm_client.models.v0/0/39_stats_msg.v0.0.39_stats_msg(
                     parts_packed = 56, 
                     req_time = 56, 
                     req_time_start = 56, 
@@ -105,7 +105,7 @@ class TestV0039Diag(unittest.TestCase):
                     bf_when_last_cycle = 56, 
                     bf_active = True, 
                     rpcs_by_message_type = [
-                        openapi_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
+                        slurm_client.models.v0_0_40_stats_msg_rpcs_by_type_inner.v0_0_40_stats_msg_rpcs_by_type_inner(
                             message_type = '', 
                             type_id = 56, 
                             count = 56, 
@@ -113,7 +113,7 @@ class TestV0039Diag(unittest.TestCase):
                             total_time = 56, )
                         ], 
                     rpcs_by_user = [
-                        openapi_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
+                        slurm_client.models.v0_0_40_stats_msg_rpcs_by_user_inner.v0_0_40_stats_msg_rpcs_by_user_inner(
                             user = '', 
                             user_id = 56, 
                             count = 56, 

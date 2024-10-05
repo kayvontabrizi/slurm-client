@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_assoc_short import V0039AssocShort
+from slurm_client.models.v0039_assoc_short import V0039AssocShort
 
 class TestV0039AssocShort(unittest.TestCase):
     """V0039AssocShort unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_node import V0040Node
+from slurm_client.models.v0040_node import V0040Node
 
 class TestV0040Node(unittest.TestCase):
     """V0040Node unit test stubs"""
@@ -39,7 +39,7 @@ class TestV0040Node(unittest.TestCase):
                 architecture = '',
                 burstbuffer_network_address = '',
                 boards = 56,
-                boot_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                boot_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -48,26 +48,26 @@ class TestV0040Node(unittest.TestCase):
                 specialized_cores = 56,
                 cpu_binding = 56,
                 cpu_load = 56,
-                free_mem = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                free_mem = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 cpus = 56,
                 effective_cpus = 56,
                 specialized_cpus = '',
-                energy = openapi_client.models.v0/0/40_acct_gather_energy.v0.0.40_acct_gather_energy(
+                energy = slurm_client.models.v0/0/40_acct_gather_energy.v0.0.40_acct_gather_energy(
                     average_watts = 56, 
                     base_consumed_energy = 56, 
                     consumed_energy = 56, 
-                    current_watts = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    current_watts = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
                     previous_consumed_energy = 56, 
                     last_collected = 56, ),
-                external_sensors = openapi_client.models.v0/0/40_ext_sensors_data.v0.0.40_ext_sensors_data(),
+                external_sensors = slurm_client.models.v0/0/40_ext_sensors_data.v0.0.40_ext_sensors_data(),
                 extra = '',
-                power = openapi_client.models.v0/0/40_power_mgmt_data.v0.0.40_power_mgmt_data(),
+                power = slurm_client.models.v0/0/40_power_mgmt_data.v0.0.40_power_mgmt_data(),
                 features = [
                     ''
                     ],
@@ -79,7 +79,7 @@ class TestV0040Node(unittest.TestCase):
                 gres_used = '',
                 instance_id = '',
                 instance_type = '',
-                last_busy = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_busy = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -103,12 +103,12 @@ class TestV0040Node(unittest.TestCase):
                 real_memory = 56,
                 comment = '',
                 reason = '',
-                reason_changed_at = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                reason_changed_at = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 reason_set_by_user = '',
-                resume_after = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                resume_after = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -118,7 +118,7 @@ class TestV0040Node(unittest.TestCase):
                 alloc_idle_cpus = 56,
                 tres_used = '',
                 tres_weighted = 1.337,
-                slurmd_start_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                slurmd_start_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

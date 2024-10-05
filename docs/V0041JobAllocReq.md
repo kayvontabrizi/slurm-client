@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_job_alloc_req import V0041JobAllocReq
+from slurm_client.models.v0041_job_alloc_req import V0041JobAllocReq
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_job_het import V0039JobHet
+from slurm_client.models.v0039_job_het import V0039JobHet
 
 class TestV0039JobHet(unittest.TestCase):
     """V0039JobHet unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0039JobHet(unittest.TestCase):
         if include_optional:
             return V0039JobHet(
                 job_id = 56,
-                job_offset = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                job_offset = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, )

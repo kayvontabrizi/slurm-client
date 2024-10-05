@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_step_tres_consumed import V0039StepTresConsumed
+from slurm_client.models.v0039_step_tres_consumed import V0039StepTresConsumed
 
 class TestV0039StepTresConsumed(unittest.TestCase):
     """V0039StepTresConsumed unit test stubs"""
@@ -37,28 +37,28 @@ class TestV0039StepTresConsumed(unittest.TestCase):
         if include_optional:
             return V0039StepTresConsumed(
                 max = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 
                         count = 56, )
                     ],
                 min = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 
                         count = 56, )
                     ],
                 average = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 
                         count = 56, )
                     ],
                 total = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 

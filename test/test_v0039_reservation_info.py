@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_reservation_info import V0039ReservationInfo
+from slurm_client.models.v0039_reservation_info import V0039ReservationInfo
 
 class TestV0039ReservationInfo(unittest.TestCase):
     """V0039ReservationInfo unit test stubs"""
@@ -40,7 +40,7 @@ class TestV0039ReservationInfo(unittest.TestCase):
                 burst_buffer = '',
                 core_count = 56,
                 core_specializations = [
-                    openapi_client.models.v0/0/39_reservation_core_spec.v0.0.39_reservation_core_spec(
+                    slurm_client.models.v0/0/39_reservation_core_spec.v0.0.39_reservation_core_spec(
                         node = '', 
                         core = '', )
                     ],
@@ -56,13 +56,13 @@ class TestV0039ReservationInfo(unittest.TestCase):
                 node_count = 56,
                 node_list = '',
                 partition = '',
-                purge_completed = openapi_client.models.v0_0_39_reservation_info_purge_completed.v0_0_39_reservation_info_purge_completed(
-                    time = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                purge_completed = slurm_client.models.v0_0_39_reservation_info_purge_completed.v0_0_39_reservation_info_purge_completed(
+                    time = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), ),
                 start_time = 56,
-                watts = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                watts = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

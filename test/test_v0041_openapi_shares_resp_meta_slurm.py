@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_shares_resp_meta_slurm import V0041OpenapiSharesRespMetaSlurm
+from slurm_client.models.v0041_openapi_shares_resp_meta_slurm import V0041OpenapiSharesRespMetaSlurm
 
 class TestV0041OpenapiSharesRespMetaSlurm(unittest.TestCase):
     """V0041OpenapiSharesRespMetaSlurm unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0041OpenapiSharesRespMetaSlurm(unittest.TestCase):
         model = V0041OpenapiSharesRespMetaSlurm()
         if include_optional:
             return V0041OpenapiSharesRespMetaSlurm(
-                version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                     major = '', 
                     micro = '', 
                     minor = '', ),

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_shares_resp_msg import V0040SharesRespMsg
+from slurm_client.models.v0040_shares_resp_msg import V0040SharesRespMsg
 
 class TestV0040SharesRespMsg(unittest.TestCase):
     """V0040SharesRespMsg unit test stubs"""
@@ -37,44 +37,44 @@ class TestV0040SharesRespMsg(unittest.TestCase):
         if include_optional:
             return V0040SharesRespMsg(
                 shares = [
-                    openapi_client.models.v0/0/40_assoc_shares_obj_wrap.v0.0.40_assoc_shares_obj_wrap(
+                    slurm_client.models.v0/0/40_assoc_shares_obj_wrap.v0.0.40_assoc_shares_obj_wrap(
                         id = 56, 
                         cluster = '', 
                         name = '', 
                         parent = '', 
                         partition = '', 
-                        shares_normalized = openapi_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
+                        shares_normalized = slurm_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 1.337, ), 
-                        shares = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        shares = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        tres = openapi_client.models.v0_0_40_assoc_shares_obj_wrap_tres.v0_0_40_assoc_shares_obj_wrap_tres(
+                        tres = slurm_client.models.v0_0_40_assoc_shares_obj_wrap_tres.v0_0_40_assoc_shares_obj_wrap_tres(
                             run_seconds = [
-                                openapi_client.models.v0/0/40_shares_uint64_tres.v0.0.40_shares_uint64_tres(
+                                slurm_client.models.v0/0/40_shares_uint64_tres.v0.0.40_shares_uint64_tres(
                                     name = '', 
-                                    value = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                                    value = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                                         set = True, 
                                         infinite = True, 
                                         number = 56, ), )
                                 ], 
                             group_minutes = [
-                                openapi_client.models.v0/0/40_shares_uint64_tres.v0.0.40_shares_uint64_tres(
+                                slurm_client.models.v0/0/40_shares_uint64_tres.v0.0.40_shares_uint64_tres(
                                     name = '', )
                                 ], 
                             usage = [
-                                openapi_client.models.v0/0/40_shares_float128_tres.v0.0.40_shares_float128_tres(
+                                slurm_client.models.v0/0/40_shares_float128_tres.v0.0.40_shares_float128_tres(
                                     name = '', )
                                 ], ), 
                         effective_usage = 1.337, 
-                        usage_normalized = openapi_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
+                        usage_normalized = slurm_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 1.337, ), 
                         usage = 56, 
-                        fairshare = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare(
+                        fairshare = slurm_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare(
                             factor = 1.337, 
                             level = 1.337, ), 
                         type = [

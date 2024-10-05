@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_memory_per_node import V0041OpenapiJobInfoRespJobsInnerMemoryPerNode
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_memory_per_node import V0041OpenapiJobInfoRespJobsInnerMemoryPerNode
 
 class TestV0041OpenapiJobInfoRespJobsInnerMemoryPerNode(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerMemoryPerNode unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_account_info import Dbv0039AccountInfo
+from slurm_client.models.dbv0039_account_info import Dbv0039AccountInfo
 
 class TestDbv0039AccountInfo(unittest.TestCase):
     """Dbv0039AccountInfo unit test stubs"""
@@ -36,40 +36,40 @@ class TestDbv0039AccountInfo(unittest.TestCase):
         model = Dbv0039AccountInfo()
         if include_optional:
             return Dbv0039AccountInfo(
-                meta = openapi_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.dbv0/0/39_error.dbv0.0.39_error(
+                    slurm_client.models.dbv0/0/39_error.dbv0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
+                    slurm_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
                 accounts = [
-                    openapi_client.models.v0/0/39_account.v0.0.39_account(
+                    slurm_client.models.v0/0/39_account.v0.0.39_account(
                         associations = [
-                            openapi_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
+                            slurm_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
                                 account = '', 
                                 cluster = '', 
                                 partition = '', 
                                 user = '', )
                             ], 
                         coordinators = [
-                            openapi_client.models.v0/0/39_coord.v0.0.39_coord(
+                            slurm_client.models.v0/0/39_coord.v0.0.39_coord(
                                 name = '', 
                                 direct = True, )
                             ], 

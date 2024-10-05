@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0040_assoc_shares_obj_wrap import V0040AssocSharesObjWrap
+from slurm_client.models.v0040_assoc_shares_obj_wrap import V0040AssocSharesObjWrap
 
 # TODO update the JSON string below
 json = "{}"

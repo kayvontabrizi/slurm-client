@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.slurm_api import SlurmApi
+from slurm_client.api.slurm_api import SlurmApi
 
 
 class TestSlurmApi(unittest.TestCase):

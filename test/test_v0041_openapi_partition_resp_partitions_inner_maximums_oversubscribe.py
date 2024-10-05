@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_maximums_oversubscribe import V0041OpenapiPartitionRespPartitionsInnerMaximumsOversubscribe
+from slurm_client.models.v0041_openapi_partition_resp_partitions_inner_maximums_oversubscribe import V0041OpenapiPartitionRespPartitionsInnerMaximumsOversubscribe
 
 class TestV0041OpenapiPartitionRespPartitionsInnerMaximumsOversubscribe(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerMaximumsOversubscribe unit test stubs"""

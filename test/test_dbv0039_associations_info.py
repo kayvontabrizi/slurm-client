@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_associations_info import Dbv0039AssociationsInfo
+from slurm_client.models.dbv0039_associations_info import Dbv0039AssociationsInfo
 
 class TestDbv0039AssociationsInfo(unittest.TestCase):
     """Dbv0039AssociationsInfo unit test stubs"""
@@ -36,46 +36,46 @@ class TestDbv0039AssociationsInfo(unittest.TestCase):
         model = Dbv0039AssociationsInfo()
         if include_optional:
             return Dbv0039AssociationsInfo(
-                meta = openapi_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.dbv0/0/39_error.dbv0.0.39_error(
+                    slurm_client.models.dbv0/0/39_error.dbv0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
+                    slurm_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
                 associations = [
-                    openapi_client.models.v0/0/39_assoc.v0.0.39_assoc(
+                    slurm_client.models.v0/0/39_assoc.v0.0.39_assoc(
                         account = '', 
                         cluster = '', 
-                        default = openapi_client.models.v0_0_39_assoc_default.v0_0_39_assoc_default(
+                        default = slurm_client.models.v0_0_39_assoc_default.v0_0_39_assoc_default(
                             qos = '', ), 
                         flags = [
                             'DELETED'
                             ], 
-                        max = openapi_client.models.v0_0_39_assoc_max.v0_0_39_assoc_max(
-                            jobs = openapi_client.models.v0_0_39_assoc_max_jobs.v0_0_39_assoc_max_jobs(
-                                per = openapi_client.models.v0_0_39_assoc_max_jobs_per.v0_0_39_assoc_max_jobs_per(
-                                    count = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        max = slurm_client.models.v0_0_39_assoc_max.v0_0_39_assoc_max(
+                            jobs = slurm_client.models.v0_0_39_assoc_max_jobs.v0_0_39_assoc_max_jobs(
+                                per = slurm_client.models.v0_0_39_assoc_max_jobs_per.v0_0_39_assoc_max_jobs_per(
+                                    count = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                                         set = True, 
                                         infinite = True, 
                                         number = 56, ), 
-                                    accruing = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                                    accruing = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                                         set = True, 
                                         infinite = True, 
                                         number = 56, ), 
@@ -84,13 +84,13 @@ class TestDbv0039AssociationsInfo(unittest.TestCase):
                                 active = , 
                                 accruing = , 
                                 total = , ), 
-                            tres = openapi_client.models.v0_0_39_assoc_max_tres.v0_0_39_assoc_max_tres(
-                                minutes = openapi_client.models.v0_0_39_assoc_max_tres_minutes.v0_0_39_assoc_max_tres_minutes(), 
-                                group = openapi_client.models.v0_0_39_assoc_max_tres_group.v0_0_39_assoc_max_tres_group(), ), 
-                            per = openapi_client.models.v0_0_39_assoc_max_per.v0_0_39_assoc_max_per(
-                                account = openapi_client.models.v0_0_39_assoc_max_per_account.v0_0_39_assoc_max_per_account(), ), ), 
+                            tres = slurm_client.models.v0_0_39_assoc_max_tres.v0_0_39_assoc_max_tres(
+                                minutes = slurm_client.models.v0_0_39_assoc_max_tres_minutes.v0_0_39_assoc_max_tres_minutes(), 
+                                group = slurm_client.models.v0_0_39_assoc_max_tres_group.v0_0_39_assoc_max_tres_group(), ), 
+                            per = slurm_client.models.v0_0_39_assoc_max_per.v0_0_39_assoc_max_per(
+                                account = slurm_client.models.v0_0_39_assoc_max_per_account.v0_0_39_assoc_max_per_account(), ), ), 
                         is_default = True, 
-                        min = openapi_client.models.v0_0_39_assoc_min.v0_0_39_assoc_min(
+                        min = slurm_client.models.v0_0_39_assoc_min.v0_0_39_assoc_min(
                             priority_threshold = , ), 
                         parent_account = '', 
                         partition = '', 
@@ -99,7 +99,7 @@ class TestDbv0039AssociationsInfo(unittest.TestCase):
                             ''
                             ], 
                         shares_raw = 56, 
-                        usage = openapi_client.models.v0/0/39_assoc_usage.v0.0.39_assoc_usage(
+                        usage = slurm_client.models.v0/0/39_assoc_usage.v0.0.39_assoc_usage(
                             accrue_job_count = 56, 
                             group_used_wallclock = 1.337, 
                             fairshare_factor = 1.337, 

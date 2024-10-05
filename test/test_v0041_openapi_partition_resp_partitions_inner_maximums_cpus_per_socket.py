@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_maximums_cpus_per_socket import V0041OpenapiPartitionRespPartitionsInnerMaximumsCpusPerSocket
+from slurm_client.models.v0041_openapi_partition_resp_partitions_inner_maximums_cpus_per_socket import V0041OpenapiPartitionRespPartitionsInnerMaximumsCpusPerSocket
 
 class TestV0041OpenapiPartitionRespPartitionsInnerMaximumsCpusPerSocket(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerMaximumsCpusPerSocket unit test stubs"""

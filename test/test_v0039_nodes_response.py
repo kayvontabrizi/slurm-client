@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_nodes_response import V0039NodesResponse
+from slurm_client.models.v0039_nodes_response import V0039NodesResponse
 
 class TestV0039NodesResponse(unittest.TestCase):
     """V0039NodesResponse unit test stubs"""
@@ -36,31 +36,31 @@ class TestV0039NodesResponse(unittest.TestCase):
         model = V0039NodesResponse()
         if include_optional:
             return V0039NodesResponse(
-                meta = openapi_client.models.v0/0/39_meta.v0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.v0/0/39_meta.v0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/39_error.v0.0.39_error(
+                    slurm_client.models.v0/0/39_error.v0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/39_warning.v0.0.39_warning(
+                    slurm_client.models.v0/0/39_warning.v0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
                 nodes = [
-                    openapi_client.models.v0/0/39_node.v0.0.39_node(
+                    slurm_client.models.v0/0/39_node.v0.0.39_node(
                         architecture = '', 
                         burstbuffer_network_address = '', 
                         boards = 56, 
@@ -69,30 +69,30 @@ class TestV0039NodesResponse(unittest.TestCase):
                         cores = 56, 
                         specialized_cores = 56, 
                         cpu_binding = 56, 
-                        cpu_load = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        cpu_load = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        free_mem = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                        free_mem = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         cpus = 56, 
                         effective_cpus = 56, 
                         specialized_cpus = '', 
-                        energy = openapi_client.models.v0/0/39_acct_gather_energy.v0.0.39_acct_gather_energy(
+                        energy = slurm_client.models.v0/0/39_acct_gather_energy.v0.0.39_acct_gather_energy(
                             average_watts = 56, 
                             base_consumed_energy = 56, 
                             consumed_energy = 56, 
-                            current_watts = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                            current_watts = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             previous_consumed_energy = 56, 
                             last_collected = 56, ), 
-                        external_sensors = openapi_client.models.v0/0/39_ext_sensors_data.v0.0.39_ext_sensors_data(), 
+                        external_sensors = slurm_client.models.v0/0/39_ext_sensors_data.v0.0.39_ext_sensors_data(), 
                         extra = '', 
-                        power = openapi_client.models.v0/0/39_power_mgmt_data.v0.0.39_power_mgmt_data(), 
+                        power = slurm_client.models.v0/0/39_power_mgmt_data.v0.0.39_power_mgmt_data(), 
                         features = [
                             ''
                             ], 
@@ -123,7 +123,7 @@ class TestV0039NodesResponse(unittest.TestCase):
                         reason = '', 
                         reason_changed_at = 56, 
                         reason_set_by_user = '', 
-                        resume_after = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                        resume_after = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 

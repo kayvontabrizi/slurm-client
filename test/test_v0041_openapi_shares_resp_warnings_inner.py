@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_shares_resp_warnings_inner import V0041OpenapiSharesRespWarningsInner
+from slurm_client.models.v0041_openapi_shares_resp_warnings_inner import V0041OpenapiSharesRespWarningsInner
 
 class TestV0041OpenapiSharesRespWarningsInner(unittest.TestCase):
     """V0041OpenapiSharesRespWarningsInner unit test stubs"""

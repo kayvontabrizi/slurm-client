@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_qos_limits_min import V0039QosLimitsMin
+from slurm_client.models.v0039_qos_limits_min import V0039QosLimitsMin
 
 class TestV0039QosLimitsMin(unittest.TestCase):
     """V0039QosLimitsMin unit test stubs"""
@@ -36,14 +36,14 @@ class TestV0039QosLimitsMin(unittest.TestCase):
         model = V0039QosLimitsMin()
         if include_optional:
             return V0039QosLimitsMin(
-                priority_threshold = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                priority_threshold = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tres = openapi_client.models.v0_0_39_qos_limits_min_tres.v0_0_39_qos_limits_min_tres(
-                    per = openapi_client.models.v0_0_39_assoc_max_tres_minutes_per.v0_0_39_assoc_max_tres_minutes_per(
+                tres = slurm_client.models.v0_0_39_qos_limits_min_tres.v0_0_39_qos_limits_min_tres(
+                    per = slurm_client.models.v0_0_39_assoc_max_tres_minutes_per.v0_0_39_assoc_max_tres_minutes_per(
                         job = [
-                            openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                            slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                 type = '', 
                                 name = '', 
                                 id = 56, 

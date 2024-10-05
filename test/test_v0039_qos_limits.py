@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_qos_limits import V0039QosLimits
+from slurm_client.models.v0039_qos_limits import V0039QosLimits
 
 class TestV0039QosLimits(unittest.TestCase):
     """V0039QosLimits unit test stubs"""
@@ -36,31 +36,31 @@ class TestV0039QosLimits(unittest.TestCase):
         model = V0039QosLimits()
         if include_optional:
             return V0039QosLimits(
-                grace_time = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                grace_time = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                max = openapi_client.models.v0_0_39_qos_limits_max.v0_0_39_qos_limits_max(
-                    active_jobs = openapi_client.models.v0_0_39_qos_limits_max_active_jobs.v0_0_39_qos_limits_max_active_jobs(
-                        accruing = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                max = slurm_client.models.v0_0_39_qos_limits_max.v0_0_39_qos_limits_max(
+                    active_jobs = slurm_client.models.v0_0_39_qos_limits_max_active_jobs.v0_0_39_qos_limits_max_active_jobs(
+                        accruing = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        count = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        count = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), ), 
-                    tres = openapi_client.models.v0_0_39_qos_limits_max_tres.v0_0_39_qos_limits_max_tres(
+                    tres = slurm_client.models.v0_0_39_qos_limits_max_tres.v0_0_39_qos_limits_max_tres(
                         total = [
-                            openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                            slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                 type = '', 
                                 name = '', 
                                 id = 56, )
                             ], 
-                        minutes = openapi_client.models.v0_0_39_qos_limits_max_tres_minutes.v0_0_39_qos_limits_max_tres_minutes(
-                            per = openapi_client.models.v0_0_39_qos_limits_max_tres_minutes_per.v0_0_39_qos_limits_max_tres_minutes_per(
+                        minutes = slurm_client.models.v0_0_39_qos_limits_max_tres_minutes.v0_0_39_qos_limits_max_tres_minutes(
+                            per = slurm_client.models.v0_0_39_qos_limits_max_tres_minutes_per.v0_0_39_qos_limits_max_tres_minutes_per(
                                 qos = [
-                                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                         type = '', 
                                         name = '', 
                                         id = 56, )
@@ -68,24 +68,24 @@ class TestV0039QosLimits(unittest.TestCase):
                                 job = , 
                                 account = , 
                                 user = , ), ), 
-                        per = openapi_client.models.v0_0_39_qos_limits_max_tres_per.v0_0_39_qos_limits_max_tres_per(
+                        per = slurm_client.models.v0_0_39_qos_limits_max_tres_per.v0_0_39_qos_limits_max_tres_per(
                             account = , 
                             job = , 
                             node = , 
                             user = , ), ), 
-                    wall_clock = openapi_client.models.v0_0_39_qos_limits_max_wall_clock.v0_0_39_qos_limits_max_wall_clock(), 
-                    jobs = openapi_client.models.v0_0_39_qos_limits_max_jobs.v0_0_39_qos_limits_max_jobs(), 
-                    accruing = openapi_client.models.v0_0_39_qos_limits_max_jobs_active_jobs.v0_0_39_qos_limits_max_jobs_active_jobs(), ),
+                    wall_clock = slurm_client.models.v0_0_39_qos_limits_max_wall_clock.v0_0_39_qos_limits_max_wall_clock(), 
+                    jobs = slurm_client.models.v0_0_39_qos_limits_max_jobs.v0_0_39_qos_limits_max_jobs(), 
+                    accruing = slurm_client.models.v0_0_39_qos_limits_max_jobs_active_jobs.v0_0_39_qos_limits_max_jobs_active_jobs(), ),
                 factor = 1.337,
-                min = openapi_client.models.v0_0_39_qos_limits_min.v0_0_39_qos_limits_min(
-                    priority_threshold = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                min = slurm_client.models.v0_0_39_qos_limits_min.v0_0_39_qos_limits_min(
+                    priority_threshold = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    tres = openapi_client.models.v0_0_39_qos_limits_min_tres.v0_0_39_qos_limits_min_tres(
-                        per = openapi_client.models.v0_0_39_assoc_max_tres_minutes_per.v0_0_39_assoc_max_tres_minutes_per(
+                    tres = slurm_client.models.v0_0_39_qos_limits_min_tres.v0_0_39_qos_limits_min_tres(
+                        per = slurm_client.models.v0_0_39_assoc_max_tres_minutes_per.v0_0_39_assoc_max_tres_minutes_per(
                             job = [
-                                openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                                slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                     type = '', 
                                     name = '', 
                                     id = 56, 

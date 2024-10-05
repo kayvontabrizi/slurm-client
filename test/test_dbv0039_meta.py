@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_meta import Dbv0039Meta
+from slurm_client.models.dbv0039_meta import Dbv0039Meta
 
 class TestDbv0039Meta(unittest.TestCase):
     """Dbv0039Meta unit test stubs"""
@@ -36,11 +36,11 @@ class TestDbv0039Meta(unittest.TestCase):
         model = Dbv0039Meta()
         if include_optional:
             return Dbv0039Meta(
-                plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                     type = '', 
                     name = '', ),
-                slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                    version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                    version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                         major = 56, 
                         micro = 56, 
                         minor = 56, ), 

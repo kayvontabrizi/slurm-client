@@ -1,4 +1,4 @@
 curl https://raw.githubusercontent.com/OpenAPITools/openapi-generator/master/bin/utils/openapi-generator-cli.sh > ~/.local/bin/openapi-generator-cli
 module load Maven/3.6.3
 curl -H "X-SLURM-USER-TOKEN:<SLURM_JWT>" -X GET 'http://<SLURM_RESTD_SERVER>/openapi/v3' -o slurmrestd.openapi.v3.json
-openapi-generator-cli generate -g python -i slurmrestd.openapi.v3.json -o ./
+openapi-generator-cli generate -g python -c openapi_generator_config.yaml -i slurmrestd.openapi.v3.json -o ./

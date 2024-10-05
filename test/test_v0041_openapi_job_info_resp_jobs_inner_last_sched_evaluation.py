@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_last_sched_evaluation import V0041OpenapiJobInfoRespJobsInnerLastSchedEvaluation
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_last_sched_evaluation import V0041OpenapiJobInfoRespJobsInnerLastSchedEvaluation
 
 class TestV0041OpenapiJobInfoRespJobsInnerLastSchedEvaluation(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerLastSchedEvaluation unit test stubs"""

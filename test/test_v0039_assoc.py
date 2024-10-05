@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_assoc import V0039Assoc
+from slurm_client.models.v0039_assoc import V0039Assoc
 
 class TestV0039Assoc(unittest.TestCase):
     """V0039Assoc unit test stubs"""
@@ -38,19 +38,19 @@ class TestV0039Assoc(unittest.TestCase):
             return V0039Assoc(
                 account = '',
                 cluster = '',
-                default = openapi_client.models.v0_0_39_assoc_default.v0_0_39_assoc_default(
+                default = slurm_client.models.v0_0_39_assoc_default.v0_0_39_assoc_default(
                     qos = '', ),
                 flags = [
                     'DELETED'
                     ],
-                max = openapi_client.models.v0_0_39_assoc_max.v0_0_39_assoc_max(
-                    jobs = openapi_client.models.v0_0_39_assoc_max_jobs.v0_0_39_assoc_max_jobs(
-                        per = openapi_client.models.v0_0_39_assoc_max_jobs_per.v0_0_39_assoc_max_jobs_per(
-                            count = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                max = slurm_client.models.v0_0_39_assoc_max.v0_0_39_assoc_max(
+                    jobs = slurm_client.models.v0_0_39_assoc_max_jobs.v0_0_39_assoc_max_jobs(
+                        per = slurm_client.models.v0_0_39_assoc_max_jobs_per.v0_0_39_assoc_max_jobs_per(
+                            count = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
-                            accruing = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                            accruing = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
@@ -59,20 +59,20 @@ class TestV0039Assoc(unittest.TestCase):
                         active = , 
                         accruing = , 
                         total = , ), 
-                    tres = openapi_client.models.v0_0_39_assoc_max_tres.v0_0_39_assoc_max_tres(
-                        minutes = openapi_client.models.v0_0_39_assoc_max_tres_minutes.v0_0_39_assoc_max_tres_minutes(), 
-                        group = openapi_client.models.v0_0_39_assoc_max_tres_group.v0_0_39_assoc_max_tres_group(), ), 
-                    per = openapi_client.models.v0_0_39_assoc_max_per.v0_0_39_assoc_max_per(
-                        account = openapi_client.models.v0_0_39_assoc_max_per_account.v0_0_39_assoc_max_per_account(), ), ),
+                    tres = slurm_client.models.v0_0_39_assoc_max_tres.v0_0_39_assoc_max_tres(
+                        minutes = slurm_client.models.v0_0_39_assoc_max_tres_minutes.v0_0_39_assoc_max_tres_minutes(), 
+                        group = slurm_client.models.v0_0_39_assoc_max_tres_group.v0_0_39_assoc_max_tres_group(), ), 
+                    per = slurm_client.models.v0_0_39_assoc_max_per.v0_0_39_assoc_max_per(
+                        account = slurm_client.models.v0_0_39_assoc_max_per_account.v0_0_39_assoc_max_per_account(), ), ),
                 is_default = True,
-                min = openapi_client.models.v0_0_39_assoc_min.v0_0_39_assoc_min(
-                    priority_threshold = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                min = slurm_client.models.v0_0_39_assoc_min.v0_0_39_assoc_min(
+                    priority_threshold = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), ),
                 parent_account = '',
                 partition = '',
-                priority = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                priority = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -80,7 +80,7 @@ class TestV0039Assoc(unittest.TestCase):
                     ''
                     ],
                 shares_raw = 56,
-                usage = openapi_client.models.v0/0/39_assoc_usage.v0.0.39_assoc_usage(
+                usage = slurm_client.models.v0/0/39_assoc_usage.v0.0.39_assoc_usage(
                     accrue_job_count = 56, 
                     group_used_wallclock = 1.337, 
                     fairshare_factor = 1.337, 

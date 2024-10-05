@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_rlimits_fsize import V0041JobDescMsgRlimitsFsize
+from slurm_client.models.v0041_job_desc_msg_rlimits_fsize import V0041JobDescMsgRlimitsFsize
 
 class TestV0041JobDescMsgRlimitsFsize(unittest.TestCase):
     """V0041JobDescMsgRlimitsFsize unit test stubs"""

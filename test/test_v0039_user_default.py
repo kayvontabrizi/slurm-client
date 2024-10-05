@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_user_default import V0039UserDefault
+from slurm_client.models.v0039_user_default import V0039UserDefault
 
 class TestV0039UserDefault(unittest.TestCase):
     """V0039UserDefault unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_slurm_step_id import V0039SlurmStepId
+from slurm_client.models.v0039_slurm_step_id import V0039SlurmStepId
 
 class TestV0039SlurmStepId(unittest.TestCase):
     """V0039SlurmStepId unit test stubs"""

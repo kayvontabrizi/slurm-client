@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_rollup_stats_inner import V0039RollupStatsInner
+from slurm_client.models.v0039_rollup_stats_inner import V0039RollupStatsInner
 
 class TestV0039RollupStatsInner(unittest.TestCase):
     """V0039RollupStatsInner unit test stubs"""

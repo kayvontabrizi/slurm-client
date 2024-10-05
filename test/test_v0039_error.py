@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_error import V0039Error
+from slurm_client.models.v0039_error import V0039Error
 
 class TestV0039Error(unittest.TestCase):
     """V0039Error unit test stubs"""

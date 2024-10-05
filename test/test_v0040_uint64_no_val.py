@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_uint64_no_val import V0040Uint64NoVal
+from slurm_client.models.v0040_uint64_no_val import V0040Uint64NoVal
 
 class TestV0040Uint64NoVal(unittest.TestCase):
     """V0040Uint64NoVal unit test stubs"""

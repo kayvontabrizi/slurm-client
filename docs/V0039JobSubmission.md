@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_job_submission import V0039JobSubmission
+from slurm_client.models.v0039_job_submission import V0039JobSubmission
 
 # TODO update the JSON string below
 json = "{}"

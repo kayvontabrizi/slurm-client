@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_job_desc_msg_rlimits_memlock import V0041JobDescMsgRlimitsMemlock
+from slurm_client.models.v0041_job_desc_msg_rlimits_memlock import V0041JobDescMsgRlimitsMemlock
 
 # TODO update the JSON string below
 json = "{}"

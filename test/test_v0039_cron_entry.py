@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_cron_entry import V0039CronEntry
+from slurm_client.models.v0039_cron_entry import V0039CronEntry
 
 class TestV0039CronEntry(unittest.TestCase):
     """V0039CronEntry unit test stubs"""
@@ -46,7 +46,7 @@ class TestV0039CronEntry(unittest.TestCase):
                 day_of_week = '',
                 specification = '',
                 command = '',
-                line = openapi_client.models.v0_0_39_cron_entry_line.v0_0_39_cron_entry_line(
+                line = slurm_client.models.v0_0_39_cron_entry_line.v0_0_39_cron_entry_line(
                     start = 56, 
                     end = 56, )
             )

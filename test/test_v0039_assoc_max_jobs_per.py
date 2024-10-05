@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_assoc_max_jobs_per import V0039AssocMaxJobsPer
+from slurm_client.models.v0039_assoc_max_jobs_per import V0039AssocMaxJobsPer
 
 class TestV0039AssocMaxJobsPer(unittest.TestCase):
     """V0039AssocMaxJobsPer unit test stubs"""
@@ -36,19 +36,19 @@ class TestV0039AssocMaxJobsPer(unittest.TestCase):
         model = V0039AssocMaxJobsPer()
         if include_optional:
             return V0039AssocMaxJobsPer(
-                count = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                count = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                accruing = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                accruing = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                submitted = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                submitted = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                wall_clock = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                wall_clock = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, )

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_job_exit_code import V0039JobExitCode
+from slurm_client.models.v0039_job_exit_code import V0039JobExitCode
 
 class TestV0039JobExitCode(unittest.TestCase):
     """V0039JobExitCode unit test stubs"""
@@ -38,7 +38,7 @@ class TestV0039JobExitCode(unittest.TestCase):
             return V0039JobExitCode(
                 status = '',
                 return_code = 56,
-                signal = openapi_client.models.v0_0_39_job_exit_code_signal.v0_0_39_job_exit_code_signal(
+                signal = slurm_client.models.v0_0_39_job_exit_code_signal.v0_0_39_job_exit_code_signal(
                     signal_id = 56, 
                     name = '', )
             )

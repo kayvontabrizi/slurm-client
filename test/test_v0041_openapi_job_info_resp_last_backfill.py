@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_last_backfill import V0041OpenapiJobInfoRespLastBackfill
+from slurm_client.models.v0041_openapi_job_info_resp_last_backfill import V0041OpenapiJobInfoRespLastBackfill
 
 class TestV0041OpenapiJobInfoRespLastBackfill(unittest.TestCase):
     """V0041OpenapiJobInfoRespLastBackfill unit test stubs"""

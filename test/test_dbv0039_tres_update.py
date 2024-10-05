@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_tres_update import Dbv0039TresUpdate
+from slurm_client.models.dbv0039_tres_update import Dbv0039TresUpdate
 
 class TestDbv0039TresUpdate(unittest.TestCase):
     """Dbv0039TresUpdate unit test stubs"""
@@ -37,7 +37,7 @@ class TestDbv0039TresUpdate(unittest.TestCase):
         if include_optional:
             return Dbv0039TresUpdate(
                 tres = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 

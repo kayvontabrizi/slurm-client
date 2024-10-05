@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_job_exit_code_signal import V0039JobExitCodeSignal
+from slurm_client.models.v0039_job_exit_code_signal import V0039JobExitCodeSignal
 
 class TestV0039JobExitCodeSignal(unittest.TestCase):
     """V0039JobExitCodeSignal unit test stubs"""

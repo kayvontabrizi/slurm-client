@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_job_info_resp import V0040OpenapiJobInfoResp
+from slurm_client.models.v0040_openapi_job_info_resp import V0040OpenapiJobInfoResp
 
 class TestV0040OpenapiJobInfoResp(unittest.TestCase):
     """V0040OpenapiJobInfoResp unit test stubs"""
@@ -37,19 +37,19 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
         if include_optional:
             return V0040OpenapiJobInfoResp(
                 jobs = [
-                    openapi_client.models.v0/0/40_job_info.v0.0.40_job_info(
+                    slurm_client.models.v0/0/40_job_info.v0.0.40_job_info(
                         account = '', 
-                        accrue_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        accrue_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         admin_comment = '', 
                         allocating_node = '', 
-                        array_job_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        array_job_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        array_task_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        array_task_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -73,15 +73,15 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         contiguous = True, 
                         core_spec = 56, 
                         thread_spec = 56, 
-                        cores_per_socket = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                        cores_per_socket = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        billable_tres = openapi_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
+                        billable_tres = slurm_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 1.337, ), 
-                        cpus_per_task = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                        cpus_per_task = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -90,24 +90,24 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         cpu_frequency_governor = , 
                         cpus_per_tres = '', 
                         cron = '', 
-                        deadline = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        deadline = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         delay_boot = , 
                         dependency = '', 
-                        derived_exit_code = openapi_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(
+                        derived_exit_code = slurm_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(
                             status = [
                                 'INVALID'
                                 ], 
                             return_code = , 
-                            signal = openapi_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
+                            signal = slurm_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
                                 id = , 
                                 name = '', ), ), 
                         eligible_time = , 
                         end_time = , 
                         excluded_nodes = '', 
-                        exit_code = openapi_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(), 
+                        exit_code = slurm_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(), 
                         extra = '', 
                         failed_node = '', 
                         features = '', 
@@ -123,7 +123,7 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         het_job_id_set = '', 
                         het_job_offset = , 
                         job_id = 56, 
-                        job_resources = openapi_client.models.v0/0/40_job_res.v0.0.40_job_res(
+                        job_resources = slurm_client.models.v0/0/40_job_res.v0.0.40_job_res(
                             nodes = '', 
                             allocated_cores = 56, 
                             allocated_cpus = 56, 
@@ -165,7 +165,7 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         memory_per_node = , 
                         minimum_cpus_per_node = , 
                         minimum_tmp_disk_per_node = , 
-                        power = openapi_client.models.v0_0_40_job_info_power.v0_0_40_job_info_power(), 
+                        power = slurm_client.models.v0_0_40_job_info_power.v0_0_40_job_info_power(), 
                         preempt_time = , 
                         preemptable_time = , 
                         pre_sus_time = , 
@@ -222,43 +222,43 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         wckey = '', 
                         current_working_directory = '', )
                     ],
-                last_backfill = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_backfill = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
+                meta = slurm_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = slurm_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
                         type = '', 
                         name = '', 
                         data_parser = '', 
                         accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
+                    client = slurm_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
                         source = '', 
                         user = '', 
                         group = '', ), 
                     command = [
                         ''
                         ], 
-                    slurm = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
-                        version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                    slurm = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
+                        version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), 
                         release = '', 
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                    slurm_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
                         description = '', 
                         error_number = 56, 
                         error = '', 
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                    slurm_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
                         description = '', 
                         source = '', )
                     ]
@@ -266,19 +266,19 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
         else:
             return V0040OpenapiJobInfoResp(
                 jobs = [
-                    openapi_client.models.v0/0/40_job_info.v0.0.40_job_info(
+                    slurm_client.models.v0/0/40_job_info.v0.0.40_job_info(
                         account = '', 
-                        accrue_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        accrue_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         admin_comment = '', 
                         allocating_node = '', 
-                        array_job_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        array_job_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        array_task_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        array_task_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -302,15 +302,15 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         contiguous = True, 
                         core_spec = 56, 
                         thread_spec = 56, 
-                        cores_per_socket = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                        cores_per_socket = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        billable_tres = openapi_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
+                        billable_tres = slurm_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 1.337, ), 
-                        cpus_per_task = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                        cpus_per_task = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -319,24 +319,24 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         cpu_frequency_governor = , 
                         cpus_per_tres = '', 
                         cron = '', 
-                        deadline = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        deadline = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         delay_boot = , 
                         dependency = '', 
-                        derived_exit_code = openapi_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(
+                        derived_exit_code = slurm_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(
                             status = [
                                 'INVALID'
                                 ], 
                             return_code = , 
-                            signal = openapi_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
+                            signal = slurm_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
                                 id = , 
                                 name = '', ), ), 
                         eligible_time = , 
                         end_time = , 
                         excluded_nodes = '', 
-                        exit_code = openapi_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(), 
+                        exit_code = slurm_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(), 
                         extra = '', 
                         failed_node = '', 
                         features = '', 
@@ -352,7 +352,7 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         het_job_id_set = '', 
                         het_job_offset = , 
                         job_id = 56, 
-                        job_resources = openapi_client.models.v0/0/40_job_res.v0.0.40_job_res(
+                        job_resources = slurm_client.models.v0/0/40_job_res.v0.0.40_job_res(
                             nodes = '', 
                             allocated_cores = 56, 
                             allocated_cpus = 56, 
@@ -394,7 +394,7 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         memory_per_node = , 
                         minimum_cpus_per_node = , 
                         minimum_tmp_disk_per_node = , 
-                        power = openapi_client.models.v0_0_40_job_info_power.v0_0_40_job_info_power(), 
+                        power = slurm_client.models.v0_0_40_job_info_power.v0_0_40_job_info_power(), 
                         preempt_time = , 
                         preemptable_time = , 
                         pre_sus_time = , 
@@ -451,11 +451,11 @@ class TestV0040OpenapiJobInfoResp(unittest.TestCase):
                         wckey = '', 
                         current_working_directory = '', )
                     ],
-                last_backfill = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_backfill = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

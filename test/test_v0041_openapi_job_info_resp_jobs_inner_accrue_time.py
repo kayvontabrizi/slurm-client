@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_accrue_time import V0041OpenapiJobInfoRespJobsInnerAccrueTime
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_accrue_time import V0041OpenapiJobInfoRespJobsInnerAccrueTime
 
 class TestV0041OpenapiJobInfoRespJobsInnerAccrueTime(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerAccrueTime unit test stubs"""

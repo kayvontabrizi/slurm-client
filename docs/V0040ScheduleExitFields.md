@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0040_schedule_exit_fields import V0040ScheduleExitFields
+from slurm_client.models.v0040_schedule_exit_fields import V0040ScheduleExitFields
 
 # TODO update the JSON string below
 json = "{}"

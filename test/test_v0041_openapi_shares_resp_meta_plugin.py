@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_shares_resp_meta_plugin import V0041OpenapiSharesRespMetaPlugin
+from slurm_client.models.v0041_openapi_shares_resp_meta_plugin import V0041OpenapiSharesRespMetaPlugin
 
 class TestV0041OpenapiSharesRespMetaPlugin(unittest.TestCase):
     """V0041OpenapiSharesRespMetaPlugin unit test stubs"""

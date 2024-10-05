@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_step_cpu_requested_frequency import V0039StepCPURequestedFrequency
+from slurm_client.models.v0039_step_cpu_requested_frequency import V0039StepCPURequestedFrequency
 
 # TODO update the JSON string below
 json = "{}"

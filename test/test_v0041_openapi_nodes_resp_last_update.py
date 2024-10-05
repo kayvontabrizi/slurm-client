@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_nodes_resp_last_update import V0041OpenapiNodesRespLastUpdate
+from slurm_client.models.v0041_openapi_nodes_resp_last_update import V0041OpenapiNodesRespLastUpdate
 
 class TestV0041OpenapiNodesRespLastUpdate(unittest.TestCase):
     """V0041OpenapiNodesRespLastUpdate unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_info import V0040JobInfo
+from slurm_client.models.v0040_job_info import V0040JobInfo
 
 class TestV0040JobInfo(unittest.TestCase):
     """V0040JobInfo unit test stubs"""
@@ -37,21 +37,21 @@ class TestV0040JobInfo(unittest.TestCase):
         if include_optional:
             return V0040JobInfo(
                 account = '',
-                accrue_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                accrue_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 admin_comment = '',
                 allocating_node = '',
-                array_job_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                array_job_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                array_task_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                array_task_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                array_max_tasks = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                array_max_tasks = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -74,74 +74,74 @@ class TestV0040JobInfo(unittest.TestCase):
                 contiguous = True,
                 core_spec = 56,
                 thread_spec = 56,
-                cores_per_socket = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                cores_per_socket = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                billable_tres = openapi_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
+                billable_tres = slurm_client.models.v0/0/40_float64_no_val.v0.0.40_float64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 1.337, ),
-                cpus_per_task = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                cpus_per_task = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpu_frequency_minimum = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                cpu_frequency_minimum = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpu_frequency_maximum = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                cpu_frequency_maximum = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpu_frequency_governor = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                cpu_frequency_governor = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 cpus_per_tres = '',
                 cron = '',
-                deadline = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                deadline = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                delay_boot = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                delay_boot = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 dependency = '',
-                derived_exit_code = openapi_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(
+                derived_exit_code = slurm_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(
                     status = [
                         'INVALID'
                         ], 
-                    return_code = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    return_code = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    signal = openapi_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
-                        id = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                    signal = slurm_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
+                        id = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         name = '', ), ),
-                eligible_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                eligible_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                end_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                end_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 excluded_nodes = '',
-                exit_code = openapi_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(
+                exit_code = slurm_client.models.v0/0/40_process_exit_code_verbose.v0.0.40_process_exit_code_verbose(
                     status = [
                         'INVALID'
                         ], 
-                    return_code = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    return_code = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    signal = openapi_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
-                        id = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                    signal = slurm_client.models.v0_0_40_process_exit_code_verbose_signal.v0_0_40_process_exit_code_verbose_signal(
+                        id = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -157,17 +157,17 @@ class TestV0040JobInfo(unittest.TestCase):
                     ],
                 group_id = 56,
                 group_name = '',
-                het_job_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                het_job_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 het_job_id_set = '',
-                het_job_offset = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                het_job_offset = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 job_id = 56,
-                job_resources = openapi_client.models.v0/0/40_job_res.v0.0.40_job_res(
+                job_resources = slurm_client.models.v0/0/40_job_res.v0.0.40_job_res(
                     nodes = '', 
                     allocated_cores = 56, 
                     allocated_cpus = 56, 
@@ -181,7 +181,7 @@ class TestV0040JobInfo(unittest.TestCase):
                 job_state = [
                     'PENDING'
                     ],
-                last_sched_evaluation = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_sched_evaluation = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -190,11 +190,11 @@ class TestV0040JobInfo(unittest.TestCase):
                     'BEGIN'
                     ],
                 mail_user = '',
-                max_cpus = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                max_cpus = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                max_nodes = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                max_nodes = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -204,74 +204,74 @@ class TestV0040JobInfo(unittest.TestCase):
                 network = '',
                 nodes = '',
                 nice = 56,
-                tasks_per_core = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                tasks_per_core = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks_per_tres = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                tasks_per_tres = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks_per_node = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                tasks_per_node = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks_per_socket = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                tasks_per_socket = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks_per_board = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                tasks_per_board = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpus = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                cpus = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                node_count = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                node_count = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                tasks = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 partition = '',
                 prefer = '',
-                memory_per_cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                memory_per_cpu = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                memory_per_node = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                memory_per_node = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                minimum_cpus_per_node = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                minimum_cpus_per_node = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                minimum_tmp_disk_per_node = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                minimum_tmp_disk_per_node = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                power = openapi_client.models.v0_0_40_job_info_power.v0_0_40_job_info_power(
+                power = slurm_client.models.v0_0_40_job_info_power.v0_0_40_job_info_power(
                     flags = [
                         null
                         ], ),
-                preempt_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                preempt_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                preemptable_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                preemptable_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                pre_sus_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                pre_sus_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 hold = True,
-                priority = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                priority = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -283,7 +283,7 @@ class TestV0040JobInfo(unittest.TestCase):
                 required_nodes = '',
                 minimum_switches = 56,
                 requeue = True,
-                resize_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                resize_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -302,11 +302,11 @@ class TestV0040JobInfo(unittest.TestCase):
                     'ALL'
                     ],
                 sockets_per_board = 56,
-                sockets_per_node = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                sockets_per_node = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                start_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                start_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -315,24 +315,24 @@ class TestV0040JobInfo(unittest.TestCase):
                 standard_error = '',
                 standard_input = '',
                 standard_output = '',
-                submit_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                submit_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                suspend_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                suspend_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 system_comment = '',
-                time_limit = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                time_limit = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                time_minimum = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                time_minimum = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                threads_per_core = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                threads_per_core = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

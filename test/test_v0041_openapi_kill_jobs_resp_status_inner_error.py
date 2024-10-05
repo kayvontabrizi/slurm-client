@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_kill_jobs_resp_status_inner_error import V0041OpenapiKillJobsRespStatusInnerError
+from slurm_client.models.v0041_openapi_kill_jobs_resp_status_inner_error import V0041OpenapiKillJobsRespStatusInnerError
 
 class TestV0041OpenapiKillJobsRespStatusInnerError(unittest.TestCase):
     """V0041OpenapiKillJobsRespStatusInnerError unit test stubs"""

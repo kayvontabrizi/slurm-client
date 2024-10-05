@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_job_info import Dbv0039JobInfo
+from slurm_client.models.dbv0039_job_info import Dbv0039JobInfo
 
 class TestDbv0039JobInfo(unittest.TestCase):
     """Dbv0039JobInfo unit test stubs"""
@@ -36,49 +36,49 @@ class TestDbv0039JobInfo(unittest.TestCase):
         model = Dbv0039JobInfo()
         if include_optional:
             return Dbv0039JobInfo(
-                meta = openapi_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.dbv0/0/39_meta.dbv0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.dbv0/0/39_error.dbv0.0.39_error(
+                    slurm_client.models.dbv0/0/39_error.dbv0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
+                    slurm_client.models.dbv0/0/39_warning.dbv0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
                 jobs = [
-                    openapi_client.models.v0/0/39_job.v0.0.39_job(
+                    slurm_client.models.v0/0/39_job.v0.0.39_job(
                         account = '', 
-                        comment = openapi_client.models.v0_0_39_job_comment.v0_0_39_job_comment(
+                        comment = slurm_client.models.v0_0_39_job_comment.v0_0_39_job_comment(
                             administrator = '', 
                             job = '', 
                             system = '', ), 
                         allocation_nodes = 56, 
-                        array = openapi_client.models.v0_0_39_job_array.v0_0_39_job_array(
+                        array = slurm_client.models.v0_0_39_job_array.v0_0_39_job_array(
                             job_id = 56, 
-                            limits = openapi_client.models.v0_0_39_job_array_limits.v0_0_39_job_array_limits(
-                                max = openapi_client.models.v0_0_39_job_array_limits_max.v0_0_39_job_array_limits_max(
-                                    running = openapi_client.models.v0_0_39_job_array_limits_max_running.v0_0_39_job_array_limits_max_running(
+                            limits = slurm_client.models.v0_0_39_job_array_limits.v0_0_39_job_array_limits(
+                                max = slurm_client.models.v0_0_39_job_array_limits_max.v0_0_39_job_array_limits_max(
+                                    running = slurm_client.models.v0_0_39_job_array_limits_max_running.v0_0_39_job_array_limits_max_running(
                                         tasks = 56, ), ), ), 
-                            task_id = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                            task_id = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             task = '', ), 
-                        association = openapi_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
+                        association = slurm_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
                             account = '', 
                             cluster = '', 
                             partition = '', 
@@ -87,31 +87,31 @@ class TestDbv0039JobInfo(unittest.TestCase):
                         cluster = '', 
                         constraints = '', 
                         container = '', 
-                        derived_exit_code = openapi_client.models.v0/0/39_job_exit_code.v0.0.39_job_exit_code(
+                        derived_exit_code = slurm_client.models.v0/0/39_job_exit_code.v0.0.39_job_exit_code(
                             status = '', 
                             return_code = 56, 
-                            signal = openapi_client.models.v0_0_39_job_exit_code_signal.v0_0_39_job_exit_code_signal(
+                            signal = slurm_client.models.v0_0_39_job_exit_code_signal.v0_0_39_job_exit_code_signal(
                                 signal_id = 56, 
                                 name = '', ), ), 
-                        time = openapi_client.models.v0_0_39_job_time.v0_0_39_job_time(
+                        time = slurm_client.models.v0_0_39_job_time.v0_0_39_job_time(
                             elapsed = 56, 
                             eligible = 56, 
                             end = 56, 
                             start = 56, 
                             submission = 56, 
                             suspended = 56, 
-                            system = openapi_client.models.v0_0_39_job_time_system.v0_0_39_job_time_system(
+                            system = slurm_client.models.v0_0_39_job_time_system.v0_0_39_job_time_system(
                                 seconds = 56, 
                                 microseconds = 56, ), 
-                            limit = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                            limit = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
-                            total = openapi_client.models.v0_0_39_job_time_system.v0_0_39_job_time_system(
+                            total = slurm_client.models.v0_0_39_job_time_system.v0_0_39_job_time_system(
                                 seconds = 56, 
                                 microseconds = 56, ), 
                             user = , ), 
-                        exit_code = openapi_client.models.v0/0/39_job_exit_code.v0.0.39_job_exit_code(
+                        exit_code = slurm_client.models.v0/0/39_job_exit_code.v0.0.39_job_exit_code(
                             status = '', 
                             return_code = 56, ), 
                         extra = '', 
@@ -120,85 +120,85 @@ class TestDbv0039JobInfo(unittest.TestCase):
                             'NONE'
                             ], 
                         group = '', 
-                        het = openapi_client.models.v0_0_39_job_het.v0_0_39_job_het(
+                        het = slurm_client.models.v0_0_39_job_het.v0_0_39_job_het(
                             job_id = 56, 
                             job_offset = , ), 
                         job_id = 56, 
                         name = '', 
                         licenses = '', 
-                        mcs = openapi_client.models.v0_0_39_job_mcs.v0_0_39_job_mcs(
+                        mcs = slurm_client.models.v0_0_39_job_mcs.v0_0_39_job_mcs(
                             label = '', ), 
                         nodes = '', 
                         partition = '', 
                         hold = True, 
                         priority = , 
                         qos = '', 
-                        required = openapi_client.models.v0_0_39_job_required.v0_0_39_job_required(
+                        required = slurm_client.models.v0_0_39_job_required.v0_0_39_job_required(
                             cpus = 56, 
-                            memory_per_cpu = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                            memory_per_cpu = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
-                            memory_per_node = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                            memory_per_node = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             memory = 56, ), 
                         kill_request_user = '', 
-                        reservation = openapi_client.models.v0_0_39_job_reservation.v0_0_39_job_reservation(
+                        reservation = slurm_client.models.v0_0_39_job_reservation.v0_0_39_job_reservation(
                             id = 56, 
                             name = '', ), 
                         script = '', 
-                        state = openapi_client.models.v0_0_39_job_state.v0_0_39_job_state(
+                        state = slurm_client.models.v0_0_39_job_state.v0_0_39_job_state(
                             current = '', 
                             reason = '', ), 
                         steps = [
-                            openapi_client.models.v0/0/39_step.v0.0.39_step(
-                                nodes = openapi_client.models.v0_0_39_step_nodes.v0_0_39_step_nodes(
+                            slurm_client.models.v0/0/39_step.v0.0.39_step(
+                                nodes = slurm_client.models.v0_0_39_step_nodes.v0_0_39_step_nodes(
                                     count = 56, 
                                     range = '', 
                                     list = [
                                         ''
                                         ], ), 
-                                tasks = openapi_client.models.v0_0_39_step_tasks.v0_0_39_step_tasks(
+                                tasks = slurm_client.models.v0_0_39_step_tasks.v0_0_39_step_tasks(
                                     count = 56, ), 
                                 pid = '', 
-                                cpu = openapi_client.models.v0_0_39_step_cpu.v0_0_39_step_CPU(
-                                    requested_frequency = openapi_client.models.v0_0_39_step_cpu_requested_frequency.v0_0_39_step_CPU_requested_frequency(
+                                cpu = slurm_client.models.v0_0_39_step_cpu.v0_0_39_step_CPU(
+                                    requested_frequency = slurm_client.models.v0_0_39_step_cpu_requested_frequency.v0_0_39_step_CPU_requested_frequency(
                                         min = , ), 
                                     governor = '', ), 
                                 kill_request_user = '', 
-                                statistics = openapi_client.models.v0_0_39_step_statistics.v0_0_39_step_statistics(
-                                    energy = openapi_client.models.v0_0_39_step_statistics_energy.v0_0_39_step_statistics_energy(
+                                statistics = slurm_client.models.v0_0_39_step_statistics.v0_0_39_step_statistics(
+                                    energy = slurm_client.models.v0_0_39_step_statistics_energy.v0_0_39_step_statistics_energy(
                                         consumed = , ), ), 
-                                step = openapi_client.models.v0_0_39_step_step.v0_0_39_step_step(
-                                    id = openapi_client.models.v0/0/39_slurm_step_id.v0.0.39_slurm_step_id(
+                                step = slurm_client.models.v0_0_39_step_step.v0_0_39_step_step(
+                                    id = slurm_client.models.v0/0/39_slurm_step_id.v0.0.39_slurm_step_id(
                                         job_id = 56, 
                                         step_het_component = 56, 
                                         step_id = '', ), 
                                     name = '', ), 
-                                task = openapi_client.models.v0_0_39_step_task.v0_0_39_step_task(
+                                task = slurm_client.models.v0_0_39_step_task.v0_0_39_step_task(
                                     distribution = '', ), 
-                                tres = openapi_client.models.v0_0_39_step_tres.v0_0_39_step_tres(
-                                    requested = openapi_client.models.v0_0_39_step_tres_requested.v0_0_39_step_tres_requested(
+                                tres = slurm_client.models.v0_0_39_step_tres.v0_0_39_step_tres(
+                                    requested = slurm_client.models.v0_0_39_step_tres_requested.v0_0_39_step_tres_requested(
                                         average = [
-                                            openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                                            slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                                 type = '', 
                                                 name = '', 
                                                 count = 56, )
                                             ], ), 
                                     allocated = [
-                                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                             type = '', 
                                             name = '', 
                                             count = 56, )
                                         ], ), )
                             ], 
                         submit_line = '', 
-                        tres = openapi_client.models.v0_0_39_job_tres.v0_0_39_job_tres(), 
+                        tres = slurm_client.models.v0_0_39_job_tres.v0_0_39_job_tres(), 
                         used_gres = '', 
                         user = '', 
-                        wckey = openapi_client.models.v0/0/39_wckey_tag.v0.0.39_wckey_tag(), 
+                        wckey = slurm_client.models.v0/0/39_wckey_tag.v0.0.39_wckey_tag(), 
                         working_directory = '', )
                     ]
             )

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_max_cpus import V0041OpenapiJobInfoRespJobsInnerMaxCpus
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_max_cpus import V0041OpenapiJobInfoRespJobsInnerMaxCpus
 
 # TODO update the JSON string below
 json = "{}"

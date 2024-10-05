@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_qos_limits_max_tres import V0039QosLimitsMaxTres
+from slurm_client.models.v0039_qos_limits_max_tres import V0039QosLimitsMaxTres
 
 class TestV0039QosLimitsMaxTres(unittest.TestCase):
     """V0039QosLimitsMaxTres unit test stubs"""
@@ -37,23 +37,23 @@ class TestV0039QosLimitsMaxTres(unittest.TestCase):
         if include_optional:
             return V0039QosLimitsMaxTres(
                 total = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 
                         count = 56, )
                     ],
-                minutes = openapi_client.models.v0_0_39_qos_limits_max_tres_minutes.v0_0_39_qos_limits_max_tres_minutes(
-                    per = openapi_client.models.v0_0_39_qos_limits_max_tres_minutes_per.v0_0_39_qos_limits_max_tres_minutes_per(
+                minutes = slurm_client.models.v0_0_39_qos_limits_max_tres_minutes.v0_0_39_qos_limits_max_tres_minutes(
+                    per = slurm_client.models.v0_0_39_qos_limits_max_tres_minutes_per.v0_0_39_qos_limits_max_tres_minutes_per(
                         qos = [
-                            openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                            slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                 type = '', 
                                 name = '', 
                                 id = 56, 
                                 count = 56, )
                             ], 
                         job = [
-                            openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                            slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                 type = '', 
                                 name = '', 
                                 id = 56, 
@@ -61,16 +61,16 @@ class TestV0039QosLimitsMaxTres(unittest.TestCase):
                             ], 
                         account = , 
                         user = , ), ),
-                per = openapi_client.models.v0_0_39_qos_limits_max_tres_per.v0_0_39_qos_limits_max_tres_per(
+                per = slurm_client.models.v0_0_39_qos_limits_max_tres_per.v0_0_39_qos_limits_max_tres_per(
                     account = [
-                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                             type = '', 
                             name = '', 
                             id = 56, 
                             count = 56, )
                         ], 
                     job = [
-                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                             type = '', 
                             name = '', 
                             id = 56, 

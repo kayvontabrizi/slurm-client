@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_acct_gather_energy import V0040AcctGatherEnergy
+from slurm_client.models.v0040_acct_gather_energy import V0040AcctGatherEnergy
 
 class TestV0040AcctGatherEnergy(unittest.TestCase):
     """V0040AcctGatherEnergy unit test stubs"""
@@ -39,7 +39,7 @@ class TestV0040AcctGatherEnergy(unittest.TestCase):
                 average_watts = 56,
                 base_consumed_energy = 56,
                 consumed_energy = 56,
-                current_watts = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                current_watts = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

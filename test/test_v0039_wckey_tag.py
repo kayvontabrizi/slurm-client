@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_wckey_tag import V0039WckeyTag
+from slurm_client.models.v0039_wckey_tag import V0039WckeyTag
 
 class TestV0039WckeyTag(unittest.TestCase):
     """V0039WckeyTag unit test stubs"""

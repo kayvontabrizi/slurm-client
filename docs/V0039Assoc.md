@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_assoc import V0039Assoc
+from slurm_client.models.v0039_assoc import V0039Assoc
 
 # TODO update the JSON string below
 json = "{}"

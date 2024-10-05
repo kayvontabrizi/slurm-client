@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_assoc_max_jobs import V0039AssocMaxJobs
+from slurm_client.models.v0039_assoc_max_jobs import V0039AssocMaxJobs
 
 class TestV0039AssocMaxJobs(unittest.TestCase):
     """V0039AssocMaxJobs unit test stubs"""
@@ -36,26 +36,26 @@ class TestV0039AssocMaxJobs(unittest.TestCase):
         model = V0039AssocMaxJobs()
         if include_optional:
             return V0039AssocMaxJobs(
-                per = openapi_client.models.v0_0_39_assoc_max_jobs_per.v0_0_39_assoc_max_jobs_per(
-                    count = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                per = slurm_client.models.v0_0_39_assoc_max_jobs_per.v0_0_39_assoc_max_jobs_per(
+                    count = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    accruing = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                    accruing = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
                     submitted = , 
                     wall_clock = , ),
-                active = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                active = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                accruing = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                accruing = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                total = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                total = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, )

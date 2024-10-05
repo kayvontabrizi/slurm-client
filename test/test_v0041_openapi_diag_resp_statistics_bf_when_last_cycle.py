@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_bf_when_last_cycle import V0041OpenapiDiagRespStatisticsBfWhenLastCycle
+from slurm_client.models.v0041_openapi_diag_resp_statistics_bf_when_last_cycle import V0041OpenapiDiagRespStatisticsBfWhenLastCycle
 
 class TestV0041OpenapiDiagRespStatisticsBfWhenLastCycle(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsBfWhenLastCycle unit test stubs"""

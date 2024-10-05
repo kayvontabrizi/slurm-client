@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_rpcs_by_message_type_inner import V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInner
+from slurm_client.models.v0041_openapi_diag_resp_statistics_rpcs_by_message_type_inner import V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInner
 
 class TestV0041OpenapiDiagRespStatisticsRpcsByMessageTypeInner(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInner unit test stubs"""
@@ -44,7 +44,7 @@ class TestV0041OpenapiDiagRespStatisticsRpcsByMessageTypeInner(unittest.TestCase
                 cycle_last = 56,
                 cycle_max = 56,
                 total_time = 56,
-                average_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
+                average_time = slurm_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
                     set = True, 
                     infinite = True, 
                     number = 56, )
@@ -59,7 +59,7 @@ class TestV0041OpenapiDiagRespStatisticsRpcsByMessageTypeInner(unittest.TestCase
                 cycle_last = 56,
                 cycle_max = 56,
                 total_time = 56,
-                average_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
+                average_time = slurm_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

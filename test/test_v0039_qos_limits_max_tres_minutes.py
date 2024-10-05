@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_qos_limits_max_tres_minutes import V0039QosLimitsMaxTresMinutes
+from slurm_client.models.v0039_qos_limits_max_tres_minutes import V0039QosLimitsMaxTresMinutes
 
 class TestV0039QosLimitsMaxTresMinutes(unittest.TestCase):
     """V0039QosLimitsMaxTresMinutes unit test stubs"""
@@ -36,16 +36,16 @@ class TestV0039QosLimitsMaxTresMinutes(unittest.TestCase):
         model = V0039QosLimitsMaxTresMinutes()
         if include_optional:
             return V0039QosLimitsMaxTresMinutes(
-                per = openapi_client.models.v0_0_39_qos_limits_max_tres_minutes_per.v0_0_39_qos_limits_max_tres_minutes_per(
+                per = slurm_client.models.v0_0_39_qos_limits_max_tres_minutes_per.v0_0_39_qos_limits_max_tres_minutes_per(
                     qos = [
-                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                             type = '', 
                             name = '', 
                             id = 56, 
                             count = 56, )
                         ], 
                     job = [
-                        openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                        slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                             type = '', 
                             name = '', 
                             id = 56, 

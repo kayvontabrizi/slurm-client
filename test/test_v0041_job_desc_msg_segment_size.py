@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_segment_size import V0041JobDescMsgSegmentSize
+from slurm_client.models.v0041_job_desc_msg_segment_size import V0041JobDescMsgSegmentSize
 
 class TestV0041JobDescMsgSegmentSize(unittest.TestCase):
     """V0041JobDescMsgSegmentSize unit test stubs"""

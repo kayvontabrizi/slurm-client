@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_license import V0039License
+from slurm_client.models.v0039_license import V0039License
 
 class TestV0039License(unittest.TestCase):
     """V0039License unit test stubs"""

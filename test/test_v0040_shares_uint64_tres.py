@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_shares_uint64_tres import V0040SharesUint64Tres
+from slurm_client.models.v0040_shares_uint64_tres import V0040SharesUint64Tres
 
 class TestV0040SharesUint64Tres(unittest.TestCase):
     """V0040SharesUint64Tres unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0040SharesUint64Tres(unittest.TestCase):
         if include_optional:
             return V0040SharesUint64Tres(
                 name = '',
-                value = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                value = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, )

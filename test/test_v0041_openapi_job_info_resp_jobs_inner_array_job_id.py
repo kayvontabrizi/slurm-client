@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_array_job_id import V0041OpenapiJobInfoRespJobsInnerArrayJobId
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_array_job_id import V0041OpenapiJobInfoRespJobsInnerArrayJobId
 
 class TestV0041OpenapiJobInfoRespJobsInnerArrayJobId(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerArrayJobId unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_partition_resp import V0040OpenapiPartitionResp
+from slurm_client.models.v0040_openapi_partition_resp import V0040OpenapiPartitionResp
 
 class TestV0040OpenapiPartitionResp(unittest.TestCase):
     """V0040OpenapiPartitionResp unit test stubs"""
@@ -37,112 +37,112 @@ class TestV0040OpenapiPartitionResp(unittest.TestCase):
         if include_optional:
             return V0040OpenapiPartitionResp(
                 partitions = [
-                    openapi_client.models.v0/0/40_partition_info.v0.0.40_partition_info(
-                        nodes = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_nodes.v0_0_41_openapi_partition_resp_partitions_inner_nodes(
+                    slurm_client.models.v0/0/40_partition_info.v0.0.40_partition_info(
+                        nodes = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_nodes.v0_0_41_openapi_partition_resp_partitions_inner_nodes(
                             allowed_allocation = '', 
                             configured = '', 
                             total = 56, ), 
-                        accounts = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_accounts.v0_0_41_openapi_partition_resp_partitions_inner_accounts(
+                        accounts = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_accounts.v0_0_41_openapi_partition_resp_partitions_inner_accounts(
                             allowed = '', 
                             deny = '', ), 
-                        groups = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_groups.v0_0_41_openapi_partition_resp_partitions_inner_groups(
+                        groups = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_groups.v0_0_41_openapi_partition_resp_partitions_inner_groups(
                             allowed = '', ), 
-                        qos = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_qos.v0_0_41_openapi_partition_resp_partitions_inner_qos(
+                        qos = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_qos.v0_0_41_openapi_partition_resp_partitions_inner_qos(
                             allowed = '', 
                             deny = '', 
                             assigned = '', ), 
                         alternate = '', 
-                        tres = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_tres.v0_0_41_openapi_partition_resp_partitions_inner_tres(
+                        tres = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_tres.v0_0_41_openapi_partition_resp_partitions_inner_tres(
                             billing_weights = '', 
                             configured = '', ), 
                         cluster = '', 
-                        cpus = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_cpus.v0_0_41_openapi_partition_resp_partitions_inner_cpus(
+                        cpus = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_cpus.v0_0_41_openapi_partition_resp_partitions_inner_cpus(
                             task_binding = 56, 
                             total = 56, ), 
-                        defaults = openapi_client.models.v0_0_40_partition_info_defaults.v0_0_40_partition_info_defaults(
+                        defaults = slurm_client.models.v0_0_40_partition_info_defaults.v0_0_40_partition_info_defaults(
                             memory_per_cpu = 56, 
-                            partition_memory_per_cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                            partition_memory_per_cpu = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
-                            partition_memory_per_node = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                            partition_memory_per_node = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
-                            time = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                            time = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             job = '', ), 
                         grace_time = 56, 
-                        maximums = openapi_client.models.v0_0_40_partition_info_maximums.v0_0_40_partition_info_maximums(
-                            cpus_per_node = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        maximums = slurm_client.models.v0_0_40_partition_info_maximums.v0_0_40_partition_info_maximums(
+                            cpus_per_node = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             cpus_per_socket = , 
                             memory_per_cpu = 56, 
                             shares = 56, 
-                            oversubscribe = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe(
+                            oversubscribe = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe(
                                 jobs = 56, 
                                 flags = [
                                     'force'
                                     ], ), 
-                            over_time_limit = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                            over_time_limit = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), ), 
-                        minimums = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_minimums.v0_0_41_openapi_partition_resp_partitions_inner_minimums(), 
+                        minimums = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_minimums.v0_0_41_openapi_partition_resp_partitions_inner_minimums(), 
                         name = '', 
                         node_sets = '', 
-                        priority = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_priority.v0_0_41_openapi_partition_resp_partitions_inner_priority(
+                        priority = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_priority.v0_0_41_openapi_partition_resp_partitions_inner_priority(
                             job_factor = 56, 
                             tier = 56, ), 
-                        timeouts = openapi_client.models.v0_0_40_partition_info_timeouts.v0_0_40_partition_info_timeouts(
-                            resume = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                        timeouts = slurm_client.models.v0_0_40_partition_info_timeouts.v0_0_40_partition_info_timeouts(
+                            resume = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             suspend = , ), 
-                        partition = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_partition.v0_0_41_openapi_partition_resp_partitions_inner_partition(
+                        partition = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_partition.v0_0_41_openapi_partition_resp_partitions_inner_partition(
                             state = [
                                 'INACTIVE'
                                 ], ), 
                         suspend_time = , )
                     ],
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
+                meta = slurm_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = slurm_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
                         type = '', 
                         name = '', 
                         data_parser = '', 
                         accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
+                    client = slurm_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
                         source = '', 
                         user = '', 
                         group = '', ), 
                     command = [
                         ''
                         ], 
-                    slurm = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
-                        version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                    slurm = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
+                        version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), 
                         release = '', 
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                    slurm_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
                         description = '', 
                         error_number = 56, 
                         error = '', 
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                    slurm_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
                         description = '', 
                         source = '', )
                     ]
@@ -150,80 +150,80 @@ class TestV0040OpenapiPartitionResp(unittest.TestCase):
         else:
             return V0040OpenapiPartitionResp(
                 partitions = [
-                    openapi_client.models.v0/0/40_partition_info.v0.0.40_partition_info(
-                        nodes = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_nodes.v0_0_41_openapi_partition_resp_partitions_inner_nodes(
+                    slurm_client.models.v0/0/40_partition_info.v0.0.40_partition_info(
+                        nodes = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_nodes.v0_0_41_openapi_partition_resp_partitions_inner_nodes(
                             allowed_allocation = '', 
                             configured = '', 
                             total = 56, ), 
-                        accounts = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_accounts.v0_0_41_openapi_partition_resp_partitions_inner_accounts(
+                        accounts = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_accounts.v0_0_41_openapi_partition_resp_partitions_inner_accounts(
                             allowed = '', 
                             deny = '', ), 
-                        groups = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_groups.v0_0_41_openapi_partition_resp_partitions_inner_groups(
+                        groups = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_groups.v0_0_41_openapi_partition_resp_partitions_inner_groups(
                             allowed = '', ), 
-                        qos = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_qos.v0_0_41_openapi_partition_resp_partitions_inner_qos(
+                        qos = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_qos.v0_0_41_openapi_partition_resp_partitions_inner_qos(
                             allowed = '', 
                             deny = '', 
                             assigned = '', ), 
                         alternate = '', 
-                        tres = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_tres.v0_0_41_openapi_partition_resp_partitions_inner_tres(
+                        tres = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_tres.v0_0_41_openapi_partition_resp_partitions_inner_tres(
                             billing_weights = '', 
                             configured = '', ), 
                         cluster = '', 
-                        cpus = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_cpus.v0_0_41_openapi_partition_resp_partitions_inner_cpus(
+                        cpus = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_cpus.v0_0_41_openapi_partition_resp_partitions_inner_cpus(
                             task_binding = 56, 
                             total = 56, ), 
-                        defaults = openapi_client.models.v0_0_40_partition_info_defaults.v0_0_40_partition_info_defaults(
+                        defaults = slurm_client.models.v0_0_40_partition_info_defaults.v0_0_40_partition_info_defaults(
                             memory_per_cpu = 56, 
-                            partition_memory_per_cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                            partition_memory_per_cpu = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
-                            partition_memory_per_node = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                            partition_memory_per_node = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
-                            time = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                            time = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             job = '', ), 
                         grace_time = 56, 
-                        maximums = openapi_client.models.v0_0_40_partition_info_maximums.v0_0_40_partition_info_maximums(
-                            cpus_per_node = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        maximums = slurm_client.models.v0_0_40_partition_info_maximums.v0_0_40_partition_info_maximums(
+                            cpus_per_node = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             cpus_per_socket = , 
                             memory_per_cpu = 56, 
                             shares = 56, 
-                            oversubscribe = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe(
+                            oversubscribe = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe(
                                 jobs = 56, 
                                 flags = [
                                     'force'
                                     ], ), 
-                            over_time_limit = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                            over_time_limit = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), ), 
-                        minimums = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_minimums.v0_0_41_openapi_partition_resp_partitions_inner_minimums(), 
+                        minimums = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_minimums.v0_0_41_openapi_partition_resp_partitions_inner_minimums(), 
                         name = '', 
                         node_sets = '', 
-                        priority = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_priority.v0_0_41_openapi_partition_resp_partitions_inner_priority(
+                        priority = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_priority.v0_0_41_openapi_partition_resp_partitions_inner_priority(
                             job_factor = 56, 
                             tier = 56, ), 
-                        timeouts = openapi_client.models.v0_0_40_partition_info_timeouts.v0_0_40_partition_info_timeouts(
-                            resume = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                        timeouts = slurm_client.models.v0_0_40_partition_info_timeouts.v0_0_40_partition_info_timeouts(
+                            resume = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             suspend = , ), 
-                        partition = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_partition.v0_0_41_openapi_partition_resp_partitions_inner_partition(
+                        partition = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_partition.v0_0_41_openapi_partition_resp_partitions_inner_partition(
                             state = [
                                 'INACTIVE'
                                 ], ), 
                         suspend_time = , )
                     ],
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

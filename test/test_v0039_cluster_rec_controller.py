@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_cluster_rec_controller import V0039ClusterRecController
+from slurm_client.models.v0039_cluster_rec_controller import V0039ClusterRecController
 
 class TestV0039ClusterRecController(unittest.TestCase):
     """V0039ClusterRecController unit test stubs"""

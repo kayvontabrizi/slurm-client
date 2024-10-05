@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_job_info_power import V0039JobInfoPower
+from slurm_client.models.v0039_job_info_power import V0039JobInfoPower
 
 class TestV0039JobInfoPower(unittest.TestCase):
     """V0039JobInfoPower unit test stubs"""

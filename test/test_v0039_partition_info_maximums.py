@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_partition_info_maximums import V0039PartitionInfoMaximums
+from slurm_client.models.v0039_partition_info_maximums import V0039PartitionInfoMaximums
 
 class TestV0039PartitionInfoMaximums(unittest.TestCase):
     """V0039PartitionInfoMaximums unit test stubs"""
@@ -36,25 +36,25 @@ class TestV0039PartitionInfoMaximums(unittest.TestCase):
         model = V0039PartitionInfoMaximums()
         if include_optional:
             return V0039PartitionInfoMaximums(
-                cpus_per_node = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                cpus_per_node = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpus_per_socket = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                cpus_per_socket = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 memory_per_cpu = 56,
-                nodes = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                nodes = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 shares = 56,
-                time = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                time = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                over_time_limit = openapi_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
+                over_time_limit = slurm_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, )

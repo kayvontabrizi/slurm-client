@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_job_comment import V0039JobComment
+from slurm_client.models.v0039_job_comment import V0039JobComment
 
 class TestV0039JobComment(unittest.TestCase):
     """V0039JobComment unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_warning import Dbv0039Warning
+from slurm_client.models.dbv0039_warning import Dbv0039Warning
 
 class TestDbv0039Warning(unittest.TestCase):
     """Dbv0039Warning unit test stubs"""

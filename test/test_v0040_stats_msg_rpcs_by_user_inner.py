@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_stats_msg_rpcs_by_user_inner import V0040StatsMsgRpcsByUserInner
+from slurm_client.models.v0040_stats_msg_rpcs_by_user_inner import V0040StatsMsgRpcsByUserInner
 
 class TestV0040StatsMsgRpcsByUserInner(unittest.TestCase):
     """V0040StatsMsgRpcsByUserInner unit test stubs"""

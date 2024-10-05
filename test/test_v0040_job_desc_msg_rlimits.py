@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_desc_msg_rlimits import V0040JobDescMsgRlimits
+from slurm_client.models.v0040_job_desc_msg_rlimits import V0040JobDescMsgRlimits
 
 class TestV0040JobDescMsgRlimits(unittest.TestCase):
     """V0040JobDescMsgRlimits unit test stubs"""
@@ -36,43 +36,43 @@ class TestV0040JobDescMsgRlimits(unittest.TestCase):
         model = V0040JobDescMsgRlimits()
         if include_optional:
             return V0040JobDescMsgRlimits(
-                cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                cpu = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                fsize = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                fsize = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                data = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                data = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                stack = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                stack = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                core = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                core = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                rss = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                rss = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                nproc = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                nproc = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                nofile = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                nofile = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                memlock = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                memlock = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                var_as = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                var_as = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, )

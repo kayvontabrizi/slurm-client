@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_kill_jobs_resp_status_inner import V0041OpenapiKillJobsRespStatusInner
+from slurm_client.models.v0041_openapi_kill_jobs_resp_status_inner import V0041OpenapiKillJobsRespStatusInner
 
 class TestV0041OpenapiKillJobsRespStatusInner(unittest.TestCase):
     """V0041OpenapiKillJobsRespStatusInner unit test stubs"""
@@ -36,22 +36,22 @@ class TestV0041OpenapiKillJobsRespStatusInner(unittest.TestCase):
         model = V0041OpenapiKillJobsRespStatusInner()
         if include_optional:
             return V0041OpenapiKillJobsRespStatusInner(
-                error = openapi_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_error.v0_0_41_openapi_kill_jobs_resp_status_inner_error(
+                error = slurm_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_error.v0_0_41_openapi_kill_jobs_resp_status_inner_error(
                     string = '', 
                     code = 56, 
                     message = '', ),
                 step_id = '',
-                job_id = openapi_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_job_id.v0_0_41_openapi_kill_jobs_resp_status_inner_job_id(
+                job_id = slurm_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_job_id.v0_0_41_openapi_kill_jobs_resp_status_inner_job_id(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                federation = openapi_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_federation.v0_0_41_openapi_kill_jobs_resp_status_inner_federation(
+                federation = slurm_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_federation.v0_0_41_openapi_kill_jobs_resp_status_inner_federation(
                     sibling = '', )
             )
         else:
             return V0041OpenapiKillJobsRespStatusInner(
                 step_id = '',
-                job_id = openapi_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_job_id.v0_0_41_openapi_kill_jobs_resp_status_inner_job_id(
+                job_id = slurm_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_job_id.v0_0_41_openapi_kill_jobs_resp_status_inner_job_id(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

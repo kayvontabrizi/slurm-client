@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_reservation_resp_reservations_inner_purge_completed import V0041OpenapiReservationRespReservationsInnerPurgeCompleted
+from slurm_client.models.v0041_openapi_reservation_resp_reservations_inner_purge_completed import V0041OpenapiReservationRespReservationsInnerPurgeCompleted
 
 class TestV0041OpenapiReservationRespReservationsInnerPurgeCompleted(unittest.TestCase):
     """V0041OpenapiReservationRespReservationsInnerPurgeCompleted unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0041OpenapiReservationRespReservationsInnerPurgeCompleted(unittest.Te
         model = V0041OpenapiReservationRespReservationsInnerPurgeCompleted()
         if include_optional:
             return V0041OpenapiReservationRespReservationsInnerPurgeCompleted(
-                time = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time(
+                time = slurm_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time(
                     set = True, 
                     infinite = True, 
                     number = 56, )

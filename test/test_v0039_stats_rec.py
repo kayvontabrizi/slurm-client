@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_stats_rec import V0039StatsRec
+from slurm_client.models.v0039_stats_rec import V0039StatsRec
 
 class TestV0039StatsRec(unittest.TestCase):
     """V0039StatsRec unit test stubs"""
@@ -38,7 +38,7 @@ class TestV0039StatsRec(unittest.TestCase):
             return V0039StatsRec(
                 time_start = 56,
                 rollups = [
-                    openapi_client.models.v0_0_39_rollup_stats_inner.v0_0_39_rollup_stats_inner(
+                    slurm_client.models.v0_0_39_rollup_stats_inner.v0_0_39_rollup_stats_inner(
                         type = 'internal', 
                         last_run = 56, 
                         max_cycle = 56, 
@@ -47,18 +47,18 @@ class TestV0039StatsRec(unittest.TestCase):
                         mean_cycles = 56, )
                     ],
                 rpcs = [
-                    openapi_client.models.v0/0/39_stats_rpc.v0.0.39_stats_rpc(
+                    slurm_client.models.v0/0/39_stats_rpc.v0.0.39_stats_rpc(
                         rpc = '', 
                         count = 56, 
-                        time = openapi_client.models.v0_0_39_stats_rpc_time.v0_0_39_stats_rpc_time(
+                        time = slurm_client.models.v0_0_39_stats_rpc_time.v0_0_39_stats_rpc_time(
                             average = 56, 
                             total = 56, ), )
                     ],
                 users = [
-                    openapi_client.models.v0/0/39_stats_user.v0.0.39_stats_user(
+                    slurm_client.models.v0/0/39_stats_user.v0.0.39_stats_user(
                         user = '', 
                         count = 56, 
-                        time = openapi_client.models.v0_0_39_stats_rpc_time.v0_0_39_stats_rpc_time(
+                        time = slurm_client.models.v0_0_39_stats_rpc_time.v0_0_39_stats_rpc_time(
                             average = 56, 
                             total = 56, ), )
                     ]

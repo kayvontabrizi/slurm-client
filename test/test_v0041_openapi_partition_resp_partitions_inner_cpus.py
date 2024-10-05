@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_cpus import V0041OpenapiPartitionRespPartitionsInnerCpus
+from slurm_client.models.v0041_openapi_partition_resp_partitions_inner_cpus import V0041OpenapiPartitionRespPartitionsInnerCpus
 
 class TestV0041OpenapiPartitionRespPartitionsInnerCpus(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerCpus unit test stubs"""

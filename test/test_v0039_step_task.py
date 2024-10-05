@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_step_task import V0039StepTask
+from slurm_client.models.v0039_step_task import V0039StepTask
 
 class TestV0039StepTask(unittest.TestCase):
     """V0039StepTask unit test stubs"""

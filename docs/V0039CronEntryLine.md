@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_cron_entry_line import V0039CronEntryLine
+from slurm_client.models.v0039_cron_entry_line import V0039CronEntryLine
 
 # TODO update the JSON string below
 json = "{}"

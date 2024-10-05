@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_qos_limits_max_jobs_active_jobs_per import V0039QosLimitsMaxJobsActiveJobsPer
+from slurm_client.models.v0039_qos_limits_max_jobs_active_jobs_per import V0039QosLimitsMaxJobsActiveJobsPer
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_crontab_line import V0041JobDescMsgCrontabLine
+from slurm_client.models.v0041_job_desc_msg_crontab_line import V0041JobDescMsgCrontabLine
 
 class TestV0041JobDescMsgCrontabLine(unittest.TestCase):
     """V0041JobDescMsgCrontabLine unit test stubs"""

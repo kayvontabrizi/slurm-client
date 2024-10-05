@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_tres import V0041OpenapiPartitionRespPartitionsInnerTres
+from slurm_client.models.v0041_openapi_partition_resp_partitions_inner_tres import V0041OpenapiPartitionRespPartitionsInnerTres
 
 # TODO update the JSON string below
 json = "{}"

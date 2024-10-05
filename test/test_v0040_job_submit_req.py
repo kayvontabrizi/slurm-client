@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_submit_req import V0040JobSubmitReq
+from slurm_client.models.v0040_job_submit_req import V0040JobSubmitReq
 
 class TestV0040JobSubmitReq(unittest.TestCase):
     """V0040JobSubmitReq unit test stubs"""
@@ -38,7 +38,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
             return V0040JobSubmitReq(
                 script = '',
                 jobs = [
-                    openapi_client.models.v0/0/40_job_desc_msg.v0.0.40_job_desc_msg(
+                    slurm_client.models.v0/0/40_job_desc_msg.v0.0.40_job_desc_msg(
                         account = '', 
                         account_gather_frequency = '', 
                         admin_comment = '', 
@@ -49,7 +49,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                             ], 
                         array = '', 
                         batch_features = '', 
-                        begin_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        begin_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -72,7 +72,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                             ], 
                         cpu_frequency = '', 
                         cpus_per_tres = '', 
-                        crontab = openapi_client.models.v0/0/40_cron_entry.v0.0.40_cron_entry(
+                        crontab = slurm_client.models.v0/0/40_cron_entry.v0.0.40_cron_entry(
                             minute = '', 
                             hour = '', 
                             day_of_month = '', 
@@ -80,7 +80,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                             day_of_week = '', 
                             specification = '', 
                             command = '', 
-                            line = openapi_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
+                            line = slurm_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
                                 start = 56, 
                                 end = 56, ), ), 
                         deadline = 56, 
@@ -90,8 +90,8 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                         environment = [
                             ''
                             ], 
-                        rlimits = openapi_client.models.v0_0_40_job_desc_msg_rlimits.v0_0_40_job_desc_msg_rlimits(
-                            cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        rlimits = slurm_client.models.v0_0_40_job_desc_msg_rlimits.v0_0_40_job_desc_msg_rlimits(
+                            cpu = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
@@ -141,7 +141,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                             ], 
                         prefer = '', 
                         hold = True, 
-                        priority = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        priority = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -166,7 +166,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                         site_factor = 56, 
                         spank_environment = , 
                         distribution = '', 
-                        time_limit = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                        time_limit = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -183,7 +183,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                             'BATCH_JOB'
                             ], 
                         kill_warning_signal = '', 
-                        kill_warning_delay = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                        kill_warning_delay = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -221,7 +221,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                         x11_target_host = '', 
                         x11_target_port = 56, )
                     ],
-                job = openapi_client.models.v0/0/40_job_desc_msg.v0.0.40_job_desc_msg(
+                job = slurm_client.models.v0/0/40_job_desc_msg.v0.0.40_job_desc_msg(
                     account = '', 
                     account_gather_frequency = '', 
                     admin_comment = '', 
@@ -232,7 +232,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                         ], 
                     array = '', 
                     batch_features = '', 
-                    begin_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    begin_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -255,7 +255,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                         ], 
                     cpu_frequency = '', 
                     cpus_per_tres = '', 
-                    crontab = openapi_client.models.v0/0/40_cron_entry.v0.0.40_cron_entry(
+                    crontab = slurm_client.models.v0/0/40_cron_entry.v0.0.40_cron_entry(
                         minute = '', 
                         hour = '', 
                         day_of_month = '', 
@@ -263,7 +263,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                         day_of_week = '', 
                         specification = '', 
                         command = '', 
-                        line = openapi_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
+                        line = slurm_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
                             start = 56, 
                             end = 56, ), ), 
                     deadline = 56, 
@@ -273,8 +273,8 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                     environment = [
                         ''
                         ], 
-                    rlimits = openapi_client.models.v0_0_40_job_desc_msg_rlimits.v0_0_40_job_desc_msg_rlimits(
-                        cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    rlimits = slurm_client.models.v0_0_40_job_desc_msg_rlimits.v0_0_40_job_desc_msg_rlimits(
+                        cpu = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -324,7 +324,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                         ], 
                     prefer = '', 
                     hold = True, 
-                    priority = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    priority = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -349,7 +349,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                     site_factor = 56, 
                     spank_environment = , 
                     distribution = '', 
-                    time_limit = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                    time_limit = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -366,7 +366,7 @@ class TestV0040JobSubmitReq(unittest.TestCase):
                         'BATCH_JOB'
                         ], 
                     kill_warning_signal = '', 
-                    kill_warning_delay = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                    kill_warning_delay = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 

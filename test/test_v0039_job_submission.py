@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_job_submission import V0039JobSubmission
+from slurm_client.models.v0039_job_submission import V0039JobSubmission
 
 class TestV0039JobSubmission(unittest.TestCase):
     """V0039JobSubmission unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0039JobSubmission(unittest.TestCase):
         if include_optional:
             return V0039JobSubmission(
                 script = '',
-                job = openapi_client.models.v0/0/39_job_desc_msg.v0.0.39_job_desc_msg(
+                job = slurm_client.models.v0/0/39_job_desc_msg.v0.0.39_job_desc_msg(
                     account = '', 
                     account_gather_frequency = '', 
                     admin_comment = '', 
@@ -67,7 +67,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                         ], 
                     cpu_frequency = '', 
                     cpus_per_tres = '', 
-                    crontab = openapi_client.models.v0/0/39_cron_entry.v0.0.39_cron_entry(
+                    crontab = slurm_client.models.v0/0/39_cron_entry.v0.0.39_cron_entry(
                         minute = '', 
                         hour = '', 
                         day_of_month = '', 
@@ -75,7 +75,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                         day_of_week = '', 
                         specification = '', 
                         command = '', 
-                        line = openapi_client.models.v0_0_39_cron_entry_line.v0_0_39_cron_entry_line(
+                        line = slurm_client.models.v0_0_39_cron_entry_line.v0_0_39_cron_entry_line(
                             start = 56, 
                             end = 56, ), ), 
                     deadline = 56, 
@@ -122,7 +122,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                         ], 
                     prefer = '', 
                     hold = True, 
-                    priority = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                    priority = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -147,7 +147,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                     site_factor = 56, 
                     spank_environment = , 
                     distribution = '', 
-                    time_limit = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                    time_limit = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -164,7 +164,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                         'BATCH_JOB'
                         ], 
                     kill_warning_signal = '', 
-                    kill_warning_delay = openapi_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
+                    kill_warning_delay = slurm_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -185,11 +185,11 @@ class TestV0039JobSubmission(unittest.TestCase):
                     tasks_per_board = 56, 
                     ntasks_per_tres = 56, 
                     minimum_cpus_per_node = 56, 
-                    memory_per_cpu = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                    memory_per_cpu = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    memory_per_node = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                    memory_per_node = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -208,7 +208,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                     x11_target_host = '', 
                     x11_target_port = 56, ),
                 jobs = [
-                    openapi_client.models.v0/0/39_job_desc_msg.v0.0.39_job_desc_msg(
+                    slurm_client.models.v0/0/39_job_desc_msg.v0.0.39_job_desc_msg(
                         account = '', 
                         account_gather_frequency = '', 
                         admin_comment = '', 
@@ -238,7 +238,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                             ], 
                         cpu_frequency = '', 
                         cpus_per_tres = '', 
-                        crontab = openapi_client.models.v0/0/39_cron_entry.v0.0.39_cron_entry(
+                        crontab = slurm_client.models.v0/0/39_cron_entry.v0.0.39_cron_entry(
                             minute = '', 
                             hour = '', 
                             day_of_month = '', 
@@ -246,7 +246,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                             day_of_week = '', 
                             specification = '', 
                             command = '', 
-                            line = openapi_client.models.v0_0_39_cron_entry_line.v0_0_39_cron_entry_line(
+                            line = slurm_client.models.v0_0_39_cron_entry_line.v0_0_39_cron_entry_line(
                                 start = 56, 
                                 end = 56, ), ), 
                         deadline = 56, 
@@ -293,7 +293,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                             ], 
                         prefer = '', 
                         hold = True, 
-                        priority = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        priority = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -318,7 +318,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                         site_factor = 56, 
                         spank_environment = , 
                         distribution = '', 
-                        time_limit = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        time_limit = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -335,7 +335,7 @@ class TestV0039JobSubmission(unittest.TestCase):
                             'BATCH_JOB'
                             ], 
                         kill_warning_signal = '', 
-                        kill_warning_delay = openapi_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
+                        kill_warning_delay = slurm_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -356,11 +356,11 @@ class TestV0039JobSubmission(unittest.TestCase):
                         tasks_per_board = 56, 
                         ntasks_per_tres = 56, 
                         minimum_cpus_per_node = 56, 
-                        memory_per_cpu = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                        memory_per_cpu = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        memory_per_node = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                        memory_per_node = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0040_partition_info_timeouts import V0040PartitionInfoTimeouts
+from slurm_client.models.v0040_partition_info_timeouts import V0040PartitionInfoTimeouts
 
 # TODO update the JSON string below
 json = "{}"

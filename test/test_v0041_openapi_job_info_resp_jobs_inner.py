@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner import V0041OpenapiJobInfoRespJobsInner
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner import V0041OpenapiJobInfoRespJobsInner
 
 class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInner unit test stubs"""
@@ -37,21 +37,21 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
         if include_optional:
             return V0041OpenapiJobInfoRespJobsInner(
                 account = '',
-                accrue_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_accrue_time.v0_0_41_openapi_job_info_resp_jobs_inner_accrue_time(
+                accrue_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_accrue_time.v0_0_41_openapi_job_info_resp_jobs_inner_accrue_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 admin_comment = '',
                 allocating_node = '',
-                array_job_id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_job_id.v0_0_41_openapi_job_info_resp_jobs_inner_array_job_id(
+                array_job_id = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_job_id.v0_0_41_openapi_job_info_resp_jobs_inner_array_job_id(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                array_task_id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id(
+                array_task_id = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                array_max_tasks = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_max_tasks.v0_0_41_openapi_job_info_resp_jobs_inner_array_max_tasks(
+                array_max_tasks = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_max_tasks.v0_0_41_openapi_job_info_resp_jobs_inner_array_max_tasks(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -74,74 +74,74 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                 contiguous = True,
                 core_spec = 56,
                 thread_spec = 56,
-                cores_per_socket = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cores_per_socket.v0_0_41_openapi_job_info_resp_jobs_inner_cores_per_socket(
+                cores_per_socket = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cores_per_socket.v0_0_41_openapi_job_info_resp_jobs_inner_cores_per_socket(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                billable_tres = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_billable_tres.v0_0_41_openapi_job_info_resp_jobs_inner_billable_tres(
+                billable_tres = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_billable_tres.v0_0_41_openapi_job_info_resp_jobs_inner_billable_tres(
                     set = True, 
                     infinite = True, 
                     number = 1.337, ),
-                cpus_per_task = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpus_per_task.v0_0_41_openapi_job_info_resp_jobs_inner_cpus_per_task(
+                cpus_per_task = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpus_per_task.v0_0_41_openapi_job_info_resp_jobs_inner_cpus_per_task(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpu_frequency_minimum = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_minimum.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_minimum(
+                cpu_frequency_minimum = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_minimum.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_minimum(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpu_frequency_maximum = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_maximum.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_maximum(
+                cpu_frequency_maximum = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_maximum.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_maximum(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpu_frequency_governor = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_governor.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_governor(
+                cpu_frequency_governor = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_governor.v0_0_41_openapi_job_info_resp_jobs_inner_cpu_frequency_governor(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 cpus_per_tres = '',
                 cron = '',
-                deadline = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_deadline.v0_0_41_openapi_job_info_resp_jobs_inner_deadline(
+                deadline = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_deadline.v0_0_41_openapi_job_info_resp_jobs_inner_deadline(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                delay_boot = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_delay_boot.v0_0_41_openapi_job_info_resp_jobs_inner_delay_boot(
+                delay_boot = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_delay_boot.v0_0_41_openapi_job_info_resp_jobs_inner_delay_boot(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 dependency = '',
-                derived_exit_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code(
+                derived_exit_code = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code(
                     status = [
                         'INVALID'
                         ], 
-                    return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                    return_code = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                        id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                    signal = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                        id = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         name = '', ), ),
-                eligible_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_eligible_time.v0_0_41_openapi_job_info_resp_jobs_inner_eligible_time(
+                eligible_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_eligible_time.v0_0_41_openapi_job_info_resp_jobs_inner_eligible_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                end_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_end_time.v0_0_41_openapi_job_info_resp_jobs_inner_end_time(
+                end_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_end_time.v0_0_41_openapi_job_info_resp_jobs_inner_end_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 excluded_nodes = '',
-                exit_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_exit_code.v0_0_41_openapi_job_info_resp_jobs_inner_exit_code(
+                exit_code = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_exit_code.v0_0_41_openapi_job_info_resp_jobs_inner_exit_code(
                     status = [
                         'INVALID'
                         ], 
-                    return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                    return_code = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                        id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                    signal = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                        id = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -157,39 +157,39 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                     ],
                 group_id = 56,
                 group_name = '',
-                het_job_id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_id.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_id(
+                het_job_id = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_id.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_id(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 het_job_id_set = '',
-                het_job_offset = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset(
+                het_job_offset = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 job_id = 56,
-                job_resources = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources(
+                job_resources = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources(
                     select_type = [
                         'CPU'
                         ], 
-                    nodes = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes(
+                    nodes = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes(
                         count = 56, 
                         list = '', 
                         whole = True, 
                         allocation = [
-                            openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner(
+                            slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner(
                                 index = 56, 
                                 name = '', 
-                                cpus = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus(
+                                cpus = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus(
                                     count = 56, 
                                     used = 56, ), 
-                                memory = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory(
+                                memory = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory(
                                     used = 56, 
                                     allocated = 56, ), 
                                 sockets = [
-                                    openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner(
+                                    slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner(
                                         index = 56, 
                                         cores = [
-                                            openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner(
+                                            slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner(
                                                 index = 56, 
                                                 status = [
                                                     'INVALID'
@@ -198,7 +198,7 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                                     ], )
                             ], ), 
                     cpus = 56, 
-                    threads_per_core = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core(
+                    threads_per_core = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core(
                         set = True, 
                         infinite = True, 
                         number = 56, ), ),
@@ -208,7 +208,7 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                 job_state = [
                     'PENDING'
                     ],
-                last_sched_evaluation = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_last_sched_evaluation.v0_0_41_openapi_job_info_resp_jobs_inner_last_sched_evaluation(
+                last_sched_evaluation = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_last_sched_evaluation.v0_0_41_openapi_job_info_resp_jobs_inner_last_sched_evaluation(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -217,11 +217,11 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                     'BEGIN'
                     ],
                 mail_user = '',
-                max_cpus = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_max_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_max_cpus(
+                max_cpus = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_max_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_max_cpus(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                max_nodes = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_max_nodes.v0_0_41_openapi_job_info_resp_jobs_inner_max_nodes(
+                max_nodes = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_max_nodes.v0_0_41_openapi_job_info_resp_jobs_inner_max_nodes(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -231,74 +231,74 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                 network = '',
                 nodes = '',
                 nice = 56,
-                tasks_per_core = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_core(
+                tasks_per_core = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_core(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks_per_tres = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_tres.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_tres(
+                tasks_per_tres = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_tres.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_tres(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks_per_node = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_node(
+                tasks_per_node = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_node(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks_per_socket = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_socket.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_socket(
+                tasks_per_socket = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_socket.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_socket(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks_per_board = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_board.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_board(
+                tasks_per_board = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_board.v0_0_41_openapi_job_info_resp_jobs_inner_tasks_per_board(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                cpus = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_cpus(
+                cpus = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_cpus(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                node_count = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_node_count.v0_0_41_openapi_job_info_resp_jobs_inner_node_count(
+                node_count = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_node_count.v0_0_41_openapi_job_info_resp_jobs_inner_node_count(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                tasks = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks.v0_0_41_openapi_job_info_resp_jobs_inner_tasks(
+                tasks = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_tasks.v0_0_41_openapi_job_info_resp_jobs_inner_tasks(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 partition = '',
                 prefer = '',
-                memory_per_cpu = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                memory_per_cpu = slurm_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                memory_per_node = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node(
+                memory_per_node = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                minimum_cpus_per_node = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_minimum_cpus_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_minimum_cpus_per_node(
+                minimum_cpus_per_node = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_minimum_cpus_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_minimum_cpus_per_node(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                minimum_tmp_disk_per_node = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_minimum_tmp_disk_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_minimum_tmp_disk_per_node(
+                minimum_tmp_disk_per_node = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_minimum_tmp_disk_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_minimum_tmp_disk_per_node(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                power = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_power.v0_0_41_openapi_job_info_resp_jobs_inner_power(
+                power = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_power.v0_0_41_openapi_job_info_resp_jobs_inner_power(
                     flags = [
                         null
                         ], ),
-                preempt_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_preempt_time.v0_0_41_openapi_job_info_resp_jobs_inner_preempt_time(
+                preempt_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_preempt_time.v0_0_41_openapi_job_info_resp_jobs_inner_preempt_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                preemptable_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_preemptable_time.v0_0_41_openapi_job_info_resp_jobs_inner_preemptable_time(
+                preemptable_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_preemptable_time.v0_0_41_openapi_job_info_resp_jobs_inner_preemptable_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                pre_sus_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_pre_sus_time.v0_0_41_openapi_job_info_resp_jobs_inner_pre_sus_time(
+                pre_sus_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_pre_sus_time.v0_0_41_openapi_job_info_resp_jobs_inner_pre_sus_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 hold = True,
-                priority = openapi_client.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
+                priority = slurm_client.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -310,7 +310,7 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                 required_nodes = '',
                 minimum_switches = 56,
                 requeue = True,
-                resize_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_resize_time.v0_0_41_openapi_job_info_resp_jobs_inner_resize_time(
+                resize_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_resize_time.v0_0_41_openapi_job_info_resp_jobs_inner_resize_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -329,11 +329,11 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                     'ALL'
                     ],
                 sockets_per_board = 56,
-                sockets_per_node = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_sockets_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_sockets_per_node(
+                sockets_per_node = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_sockets_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_sockets_per_node(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                start_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_start_time.v0_0_41_openapi_job_info_resp_jobs_inner_start_time(
+                start_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_start_time.v0_0_41_openapi_job_info_resp_jobs_inner_start_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -342,24 +342,24 @@ class TestV0041OpenapiJobInfoRespJobsInner(unittest.TestCase):
                 standard_error = '',
                 standard_input = '',
                 standard_output = '',
-                submit_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_submit_time.v0_0_41_openapi_job_info_resp_jobs_inner_submit_time(
+                submit_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_submit_time.v0_0_41_openapi_job_info_resp_jobs_inner_submit_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                suspend_time = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_suspend_time.v0_0_41_openapi_job_info_resp_jobs_inner_suspend_time(
+                suspend_time = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_suspend_time.v0_0_41_openapi_job_info_resp_jobs_inner_suspend_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 system_comment = '',
-                time_limit = openapi_client.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
+                time_limit = slurm_client.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                time_minimum = openapi_client.models.v0_0_41_job_desc_msg_time_minimum.v0_0_41_job_desc_msg_time_minimum(
+                time_minimum = slurm_client.models.v0_0_41_job_desc_msg_time_minimum.v0_0_41_job_desc_msg_time_minimum(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                threads_per_core = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_threads_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_threads_per_core(
+                threads_per_core = slurm_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_threads_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_threads_per_core(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

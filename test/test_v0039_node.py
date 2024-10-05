@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_node import V0039Node
+from slurm_client.models.v0039_node import V0039Node
 
 class TestV0039Node(unittest.TestCase):
     """V0039Node unit test stubs"""
@@ -44,30 +44,30 @@ class TestV0039Node(unittest.TestCase):
                 cores = 56,
                 specialized_cores = 56,
                 cpu_binding = 56,
-                cpu_load = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                cpu_load = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                free_mem = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                free_mem = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 cpus = 56,
                 effective_cpus = 56,
                 specialized_cpus = '',
-                energy = openapi_client.models.v0/0/39_acct_gather_energy.v0.0.39_acct_gather_energy(
+                energy = slurm_client.models.v0/0/39_acct_gather_energy.v0.0.39_acct_gather_energy(
                     average_watts = 56, 
                     base_consumed_energy = 56, 
                     consumed_energy = 56, 
-                    current_watts = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                    current_watts = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
                     previous_consumed_energy = 56, 
                     last_collected = 56, ),
-                external_sensors = openapi_client.models.v0/0/39_ext_sensors_data.v0.0.39_ext_sensors_data(),
+                external_sensors = slurm_client.models.v0/0/39_ext_sensors_data.v0.0.39_ext_sensors_data(),
                 extra = '',
-                power = openapi_client.models.v0/0/39_power_mgmt_data.v0.0.39_power_mgmt_data(),
+                power = slurm_client.models.v0/0/39_power_mgmt_data.v0.0.39_power_mgmt_data(),
                 features = [
                     ''
                     ],
@@ -100,7 +100,7 @@ class TestV0039Node(unittest.TestCase):
                 reason = '',
                 reason_changed_at = 56,
                 reason_set_by_user = '',
-                resume_after = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                resume_after = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_job_desc_msg import V0040JobDescMsg
+from slurm_client.models.v0040_job_desc_msg import V0040JobDescMsg
 
 class TestV0040JobDescMsg(unittest.TestCase):
     """V0040JobDescMsg unit test stubs"""
@@ -46,7 +46,7 @@ class TestV0040JobDescMsg(unittest.TestCase):
                     ],
                 array = '',
                 batch_features = '',
-                begin_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                begin_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -69,7 +69,7 @@ class TestV0040JobDescMsg(unittest.TestCase):
                     ],
                 cpu_frequency = '',
                 cpus_per_tres = '',
-                crontab = openapi_client.models.v0/0/40_cron_entry.v0.0.40_cron_entry(
+                crontab = slurm_client.models.v0/0/40_cron_entry.v0.0.40_cron_entry(
                     flags = [
                         'WILD_MINUTE'
                         ], 
@@ -80,7 +80,7 @@ class TestV0040JobDescMsg(unittest.TestCase):
                     day_of_week = '', 
                     specification = '', 
                     command = '', 
-                    line = openapi_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
+                    line = slurm_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
                         start = 56, 
                         end = 56, ), ),
                 deadline = 56,
@@ -90,12 +90,12 @@ class TestV0040JobDescMsg(unittest.TestCase):
                 environment = [
                     ''
                     ],
-                rlimits = openapi_client.models.v0_0_40_job_desc_msg_rlimits.v0_0_40_job_desc_msg_rlimits(
-                    cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                rlimits = slurm_client.models.v0_0_40_job_desc_msg_rlimits.v0_0_40_job_desc_msg_rlimits(
+                    cpu = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
-                    fsize = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                    fsize = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), 
@@ -144,7 +144,7 @@ class TestV0040JobDescMsg(unittest.TestCase):
                     ],
                 prefer = '',
                 hold = True,
-                priority = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                priority = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -171,11 +171,11 @@ class TestV0040JobDescMsg(unittest.TestCase):
                     ''
                     ],
                 distribution = '',
-                time_limit = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                time_limit = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                time_minimum = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                time_minimum = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -191,7 +191,7 @@ class TestV0040JobDescMsg(unittest.TestCase):
                     'BATCH_JOB'
                     ],
                 kill_warning_signal = '',
-                kill_warning_delay = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                kill_warning_delay = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -212,17 +212,17 @@ class TestV0040JobDescMsg(unittest.TestCase):
                 tasks_per_board = 56,
                 ntasks_per_tres = 56,
                 minimum_cpus_per_node = 56,
-                memory_per_cpu = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                memory_per_cpu = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                memory_per_node = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                memory_per_node = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
                 temporary_disk_per_node = 56,
                 selinux_context = '',
-                required_switches = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                required_switches = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

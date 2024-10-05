@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_assoc_max_tres_group import V0039AssocMaxTresGroup
+from slurm_client.models.v0039_assoc_max_tres_group import V0039AssocMaxTresGroup
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_partition_info_priority import V0039PartitionInfoPriority
+from slurm_client.models.v0039_partition_info_priority import V0039PartitionInfoPriority
 
 class TestV0039PartitionInfoPriority(unittest.TestCase):
     """V0039PartitionInfoPriority unit test stubs"""

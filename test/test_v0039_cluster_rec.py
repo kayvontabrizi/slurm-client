@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_cluster_rec import V0039ClusterRec
+from slurm_client.models.v0039_cluster_rec import V0039ClusterRec
 
 class TestV0039ClusterRec(unittest.TestCase):
     """V0039ClusterRec unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0039ClusterRec(unittest.TestCase):
         model = V0039ClusterRec()
         if include_optional:
             return V0039ClusterRec(
-                controller = openapi_client.models.v0_0_39_cluster_rec_controller.v0_0_39_cluster_rec_controller(
+                controller = slurm_client.models.v0_0_39_cluster_rec_controller.v0_0_39_cluster_rec_controller(
                     host = '', 
                     port = 56, ),
                 flags = [
@@ -45,15 +45,15 @@ class TestV0039ClusterRec(unittest.TestCase):
                 name = '',
                 nodes = '',
                 select_plugin = '',
-                associations = openapi_client.models.v0_0_39_cluster_rec_associations.v0_0_39_cluster_rec_associations(
-                    root = openapi_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
+                associations = slurm_client.models.v0_0_39_cluster_rec_associations.v0_0_39_cluster_rec_associations(
+                    root = slurm_client.models.v0/0/39_assoc_short.v0.0.39_assoc_short(
                         account = '', 
                         cluster = '', 
                         partition = '', 
                         user = '', ), ),
                 rpc_version = 56,
                 tres = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 

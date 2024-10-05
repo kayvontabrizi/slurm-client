@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_reservations_response import V0039ReservationsResponse
+from slurm_client.models.v0039_reservations_response import V0039ReservationsResponse
 
 class TestV0039ReservationsResponse(unittest.TestCase):
     """V0039ReservationsResponse unit test stubs"""
@@ -36,36 +36,36 @@ class TestV0039ReservationsResponse(unittest.TestCase):
         model = V0039ReservationsResponse()
         if include_optional:
             return V0039ReservationsResponse(
-                meta = openapi_client.models.v0/0/39_meta.v0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.v0/0/39_meta.v0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/39_error.v0.0.39_error(
+                    slurm_client.models.v0/0/39_error.v0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/39_warning.v0.0.39_warning(
+                    slurm_client.models.v0/0/39_warning.v0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
                 reservations = [
-                    openapi_client.models.v0/0/39_reservation_info.v0.0.39_reservation_info(
+                    slurm_client.models.v0/0/39_reservation_info.v0.0.39_reservation_info(
                         accounts = '', 
                         burst_buffer = '', 
                         core_count = 56, 
                         core_specializations = [
-                            openapi_client.models.v0/0/39_reservation_core_spec.v0.0.39_reservation_core_spec(
+                            slurm_client.models.v0/0/39_reservation_core_spec.v0.0.39_reservation_core_spec(
                                 node = '', 
                                 core = '', )
                             ], 
@@ -81,13 +81,13 @@ class TestV0039ReservationsResponse(unittest.TestCase):
                         node_count = 56, 
                         node_list = '', 
                         partition = '', 
-                        purge_completed = openapi_client.models.v0_0_39_reservation_info_purge_completed.v0_0_39_reservation_info_purge_completed(
-                            time = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        purge_completed = slurm_client.models.v0_0_39_reservation_info_purge_completed.v0_0_39_reservation_info_purge_completed(
+                            time = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), ), 
                         start_time = 56, 
-                        watts = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        watts = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 

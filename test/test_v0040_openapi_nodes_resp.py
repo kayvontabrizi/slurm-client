@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_openapi_nodes_resp import V0040OpenapiNodesResp
+from slurm_client.models.v0040_openapi_nodes_resp import V0040OpenapiNodesResp
 
 class TestV0040OpenapiNodesResp(unittest.TestCase):
     """V0040OpenapiNodesResp unit test stubs"""
@@ -37,11 +37,11 @@ class TestV0040OpenapiNodesResp(unittest.TestCase):
         if include_optional:
             return V0040OpenapiNodesResp(
                 nodes = [
-                    openapi_client.models.v0/0/40_node.v0.0.40_node(
+                    slurm_client.models.v0/0/40_node.v0.0.40_node(
                         architecture = '', 
                         burstbuffer_network_address = '', 
                         boards = 56, 
-                        boot_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        boot_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -50,26 +50,26 @@ class TestV0040OpenapiNodesResp(unittest.TestCase):
                         specialized_cores = 56, 
                         cpu_binding = 56, 
                         cpu_load = 56, 
-                        free_mem = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        free_mem = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         cpus = 56, 
                         effective_cpus = 56, 
                         specialized_cpus = '', 
-                        energy = openapi_client.models.v0/0/40_acct_gather_energy.v0.0.40_acct_gather_energy(
+                        energy = slurm_client.models.v0/0/40_acct_gather_energy.v0.0.40_acct_gather_energy(
                             average_watts = 56, 
                             base_consumed_energy = 56, 
                             consumed_energy = 56, 
-                            current_watts = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                            current_watts = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             previous_consumed_energy = 56, 
                             last_collected = 56, ), 
-                        external_sensors = openapi_client.models.v0/0/40_ext_sensors_data.v0.0.40_ext_sensors_data(), 
+                        external_sensors = slurm_client.models.v0/0/40_ext_sensors_data.v0.0.40_ext_sensors_data(), 
                         extra = '', 
-                        power = openapi_client.models.v0/0/40_power_mgmt_data.v0.0.40_power_mgmt_data(), 
+                        power = slurm_client.models.v0/0/40_power_mgmt_data.v0.0.40_power_mgmt_data(), 
                         features = [
                             ''
                             ], 
@@ -117,39 +117,39 @@ class TestV0040OpenapiNodesResp(unittest.TestCase):
                         tres = '', 
                         version = '', )
                     ],
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                meta = openapi_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
-                    plugin = openapi_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
+                meta = slurm_client.models.v0/0/40_openapi_meta.v0.0.40_openapi_meta(
+                    plugin = slurm_client.models.v0_0_41_openapi_shares_resp_meta_plugin.v0_0_41_openapi_shares_resp_meta_plugin(
                         type = '', 
                         name = '', 
                         data_parser = '', 
                         accounting_storage = '', ), 
-                    client = openapi_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
+                    client = slurm_client.models.v0_0_41_openapi_shares_resp_meta_client.v0_0_41_openapi_shares_resp_meta_client(
                         source = '', 
                         user = '', 
                         group = '', ), 
                     command = [
                         ''
                         ], 
-                    slurm = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
-                        version = openapi_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
+                    slurm = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm.v0_0_41_openapi_shares_resp_meta_slurm(
+                        version = slurm_client.models.v0_0_41_openapi_shares_resp_meta_slurm_version.v0_0_41_openapi_shares_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), 
                         release = '', 
                         cluster = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
+                    slurm_client.models.v0/0/40_openapi_error.v0.0.40_openapi_error(
                         description = '', 
                         error_number = 56, 
                         error = '', 
                         source = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
+                    slurm_client.models.v0/0/40_openapi_warning.v0.0.40_openapi_warning(
                         description = '', 
                         source = '', )
                     ]
@@ -157,11 +157,11 @@ class TestV0040OpenapiNodesResp(unittest.TestCase):
         else:
             return V0040OpenapiNodesResp(
                 nodes = [
-                    openapi_client.models.v0/0/40_node.v0.0.40_node(
+                    slurm_client.models.v0/0/40_node.v0.0.40_node(
                         architecture = '', 
                         burstbuffer_network_address = '', 
                         boards = 56, 
-                        boot_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        boot_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -170,26 +170,26 @@ class TestV0040OpenapiNodesResp(unittest.TestCase):
                         specialized_cores = 56, 
                         cpu_binding = 56, 
                         cpu_load = 56, 
-                        free_mem = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                        free_mem = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         cpus = 56, 
                         effective_cpus = 56, 
                         specialized_cpus = '', 
-                        energy = openapi_client.models.v0/0/40_acct_gather_energy.v0.0.40_acct_gather_energy(
+                        energy = slurm_client.models.v0/0/40_acct_gather_energy.v0.0.40_acct_gather_energy(
                             average_watts = 56, 
                             base_consumed_energy = 56, 
                             consumed_energy = 56, 
-                            current_watts = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                            current_watts = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                                 set = True, 
                                 infinite = True, 
                                 number = 56, ), 
                             previous_consumed_energy = 56, 
                             last_collected = 56, ), 
-                        external_sensors = openapi_client.models.v0/0/40_ext_sensors_data.v0.0.40_ext_sensors_data(), 
+                        external_sensors = slurm_client.models.v0/0/40_ext_sensors_data.v0.0.40_ext_sensors_data(), 
                         extra = '', 
-                        power = openapi_client.models.v0/0/40_power_mgmt_data.v0.0.40_power_mgmt_data(), 
+                        power = slurm_client.models.v0/0/40_power_mgmt_data.v0.0.40_power_mgmt_data(), 
                         features = [
                             ''
                             ], 
@@ -237,7 +237,7 @@ class TestV0040OpenapiNodesResp(unittest.TestCase):
                         tres = '', 
                         version = '', )
                     ],
-                last_update = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                last_update = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

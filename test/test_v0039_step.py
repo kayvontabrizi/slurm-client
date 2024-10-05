@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_step import V0039Step
+from slurm_client.models.v0039_step import V0039Step
 
 class TestV0039Step(unittest.TestCase):
     """V0039Step unit test stubs"""
@@ -36,73 +36,73 @@ class TestV0039Step(unittest.TestCase):
         model = V0039Step()
         if include_optional:
             return V0039Step(
-                time = openapi_client.models.v0_0_39_step_time.v0_0_39_step_time(
+                time = slurm_client.models.v0_0_39_step_time.v0_0_39_step_time(
                     elapsed = 56, 
                     end = 56, 
                     start = 56, 
                     suspended = 56, 
-                    system = openapi_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
+                    system = slurm_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
                         seconds = 56, 
                         microseconds = 56, ), 
-                    total = openapi_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
+                    total = slurm_client.models.v0_0_39_step_time_system.v0_0_39_step_time_system(
                         seconds = 56, 
                         microseconds = 56, ), 
                     user = , ),
-                exit_code = openapi_client.models.v0/0/39_job_exit_code.v0.0.39_job_exit_code(
+                exit_code = slurm_client.models.v0/0/39_job_exit_code.v0.0.39_job_exit_code(
                     status = '', 
                     return_code = 56, 
-                    signal = openapi_client.models.v0_0_39_job_exit_code_signal.v0_0_39_job_exit_code_signal(
+                    signal = slurm_client.models.v0_0_39_job_exit_code_signal.v0_0_39_job_exit_code_signal(
                         signal_id = 56, 
                         name = '', ), ),
-                nodes = openapi_client.models.v0_0_39_step_nodes.v0_0_39_step_nodes(
+                nodes = slurm_client.models.v0_0_39_step_nodes.v0_0_39_step_nodes(
                     count = 56, 
                     range = '', 
                     list = [
                         ''
                         ], ),
-                tasks = openapi_client.models.v0_0_39_step_tasks.v0_0_39_step_tasks(
+                tasks = slurm_client.models.v0_0_39_step_tasks.v0_0_39_step_tasks(
                     count = 56, ),
                 pid = '',
-                cpu = openapi_client.models.v0_0_39_step_cpu.v0_0_39_step_CPU(
-                    requested_frequency = openapi_client.models.v0_0_39_step_cpu_requested_frequency.v0_0_39_step_CPU_requested_frequency(
-                        min = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                cpu = slurm_client.models.v0_0_39_step_cpu.v0_0_39_step_CPU(
+                    requested_frequency = slurm_client.models.v0_0_39_step_cpu_requested_frequency.v0_0_39_step_CPU_requested_frequency(
+                        min = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        max = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        max = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), ), 
                     governor = '', ),
                 kill_request_user = '',
                 state = '',
-                statistics = openapi_client.models.v0_0_39_step_statistics.v0_0_39_step_statistics(
-                    cpu = openapi_client.models.v0_0_39_step_statistics_cpu.v0_0_39_step_statistics_CPU(
+                statistics = slurm_client.models.v0_0_39_step_statistics.v0_0_39_step_statistics(
+                    cpu = slurm_client.models.v0_0_39_step_statistics_cpu.v0_0_39_step_statistics_CPU(
                         actual_frequency = 56, ), 
-                    energy = openapi_client.models.v0_0_39_step_statistics_energy.v0_0_39_step_statistics_energy(
-                        consumed = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                    energy = slurm_client.models.v0_0_39_step_statistics_energy.v0_0_39_step_statistics_energy(
+                        consumed = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), ), ),
-                step = openapi_client.models.v0_0_39_step_step.v0_0_39_step_step(
-                    id = openapi_client.models.v0/0/39_slurm_step_id.v0.0.39_slurm_step_id(
+                step = slurm_client.models.v0_0_39_step_step.v0_0_39_step_step(
+                    id = slurm_client.models.v0/0/39_slurm_step_id.v0.0.39_slurm_step_id(
                         job_id = 56, 
                         step_het_component = 56, 
                         step_id = '', ), 
                     name = '', ),
-                task = openapi_client.models.v0_0_39_step_task.v0_0_39_step_task(
+                task = slurm_client.models.v0_0_39_step_task.v0_0_39_step_task(
                     distribution = '', ),
-                tres = openapi_client.models.v0_0_39_step_tres.v0_0_39_step_tres(
-                    requested = openapi_client.models.v0_0_39_step_tres_requested.v0_0_39_step_tres_requested(
+                tres = slurm_client.models.v0_0_39_step_tres.v0_0_39_step_tres(
+                    requested = slurm_client.models.v0_0_39_step_tres_requested.v0_0_39_step_tres_requested(
                         max = [
-                            openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                            slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                 type = '', 
                                 name = '', 
                                 id = 56, 
                                 count = 56, )
                             ], 
                         min = [
-                            openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                            slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                                 type = '', 
                                 name = '', 
                                 id = 56, 
@@ -114,7 +114,7 @@ class TestV0039Step(unittest.TestCase):
                         total = [
                             
                             ], ), 
-                    consumed = openapi_client.models.v0_0_39_step_tres_consumed.v0_0_39_step_tres_consumed(), 
+                    consumed = slurm_client.models.v0_0_39_step_tres_consumed.v0_0_39_step_tres_consumed(), 
                     allocated = , )
             )
         else:

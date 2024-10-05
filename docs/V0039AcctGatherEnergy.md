@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_acct_gather_energy import V0039AcctGatherEnergy
+from slurm_client.models.v0039_acct_gather_energy import V0039AcctGatherEnergy
 
 # TODO update the JSON string below
 json = "{}"

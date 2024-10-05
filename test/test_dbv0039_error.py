@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.dbv0039_error import Dbv0039Error
+from slurm_client.models.dbv0039_error import Dbv0039Error
 
 class TestDbv0039Error(unittest.TestCase):
     """Dbv0039Error unit test stubs"""

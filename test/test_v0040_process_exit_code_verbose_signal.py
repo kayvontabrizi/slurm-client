@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_process_exit_code_verbose_signal import V0040ProcessExitCodeVerboseSignal
+from slurm_client.models.v0040_process_exit_code_verbose_signal import V0040ProcessExitCodeVerboseSignal
 
 class TestV0040ProcessExitCodeVerboseSignal(unittest.TestCase):
     """V0040ProcessExitCodeVerboseSignal unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0040ProcessExitCodeVerboseSignal(unittest.TestCase):
         model = V0040ProcessExitCodeVerboseSignal()
         if include_optional:
             return V0040ProcessExitCodeVerboseSignal(
-                id = openapi_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
+                id = slurm_client.models.v0/0/40_uint16_no_val.v0.0.40_uint16_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

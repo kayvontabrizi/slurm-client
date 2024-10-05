@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_reservation_resp_reservations_inner_watts import V0041OpenapiReservationRespReservationsInnerWatts
+from slurm_client.models.v0041_openapi_reservation_resp_reservations_inner_watts import V0041OpenapiReservationRespReservationsInnerWatts
 
 class TestV0041OpenapiReservationRespReservationsInnerWatts(unittest.TestCase):
     """V0041OpenapiReservationRespReservationsInnerWatts unit test stubs"""

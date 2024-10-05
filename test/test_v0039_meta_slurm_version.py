@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_meta_slurm_version import V0039MetaSlurmVersion
+from slurm_client.models.v0039_meta_slurm_version import V0039MetaSlurmVersion
 
 class TestV0039MetaSlurmVersion(unittest.TestCase):
     """V0039MetaSlurmVersion unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_rlimits_nproc import V0041JobDescMsgRlimitsNproc
+from slurm_client.models.v0041_job_desc_msg_rlimits_nproc import V0041JobDescMsgRlimitsNproc
 
 class TestV0041JobDescMsgRlimitsNproc(unittest.TestCase):
     """V0041JobDescMsgRlimitsNproc unit test stubs"""

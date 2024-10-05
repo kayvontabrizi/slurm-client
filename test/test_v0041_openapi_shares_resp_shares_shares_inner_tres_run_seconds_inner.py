@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_shares_resp_shares_shares_inner_tres_run_seconds_inner import V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner
+from slurm_client.models.v0041_openapi_shares_resp_shares_shares_inner_tres_run_seconds_inner import V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner
 
 class TestV0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner(unittest.TestCase):
     """V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner(unittest.Te
         if include_optional:
             return V0041OpenapiSharesRespSharesSharesInnerTresRunSecondsInner(
                 name = '',
-                value = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_run_seconds_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_run_seconds_inner_value(
+                value = slurm_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_run_seconds_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_run_seconds_inner_value(
                     set = True, 
                     infinite = True, 
                     number = 56, )

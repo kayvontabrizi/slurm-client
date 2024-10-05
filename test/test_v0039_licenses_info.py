@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_licenses_info import V0039LicensesInfo
+from slurm_client.models.v0039_licenses_info import V0039LicensesInfo
 
 class TestV0039LicensesInfo(unittest.TestCase):
     """V0039LicensesInfo unit test stubs"""
@@ -36,31 +36,31 @@ class TestV0039LicensesInfo(unittest.TestCase):
         model = V0039LicensesInfo()
         if include_optional:
             return V0039LicensesInfo(
-                meta = openapi_client.models.v0/0/39_meta.v0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.v0/0/39_meta.v0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/39_error.v0.0.39_error(
+                    slurm_client.models.v0/0/39_error.v0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/39_warning.v0.0.39_warning(
+                    slurm_client.models.v0/0/39_warning.v0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
                 licenses = [
-                    openapi_client.models.v0/0/39_license.v0.0.39_license(
+                    slurm_client.models.v0/0/39_license.v0.0.39_license(
                         license_name = '', 
                         total = 56, 
                         used = 56, 

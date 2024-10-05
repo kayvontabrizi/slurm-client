@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_kill_jobs_resp_job import V0040KillJobsRespJob
+from slurm_client.models.v0040_kill_jobs_resp_job import V0040KillJobsRespJob
 
 class TestV0040KillJobsRespJob(unittest.TestCase):
     """V0040KillJobsRespJob unit test stubs"""
@@ -36,22 +36,22 @@ class TestV0040KillJobsRespJob(unittest.TestCase):
         model = V0040KillJobsRespJob()
         if include_optional:
             return V0040KillJobsRespJob(
-                error = openapi_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_error.v0_0_41_openapi_kill_jobs_resp_status_inner_error(
+                error = slurm_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_error.v0_0_41_openapi_kill_jobs_resp_status_inner_error(
                     string = '', 
                     code = 56, 
                     message = '', ),
                 step_id = '',
-                job_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                job_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                federation = openapi_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_federation.v0_0_41_openapi_kill_jobs_resp_status_inner_federation(
+                federation = slurm_client.models.v0_0_41_openapi_kill_jobs_resp_status_inner_federation.v0_0_41_openapi_kill_jobs_resp_status_inner_federation(
                     sibling = '', )
             )
         else:
             return V0040KillJobsRespJob(
                 step_id = '',
-                job_id = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                job_id = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

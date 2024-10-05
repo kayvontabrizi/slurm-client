@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_nodes_resp_nodes_inner_reason_changed_at import V0041OpenapiNodesRespNodesInnerReasonChangedAt
+from slurm_client.models.v0041_openapi_nodes_resp_nodes_inner_reason_changed_at import V0041OpenapiNodesRespNodesInnerReasonChangedAt
 
 class TestV0041OpenapiNodesRespNodesInnerReasonChangedAt(unittest.TestCase):
     """V0041OpenapiNodesRespNodesInnerReasonChangedAt unit test stubs"""

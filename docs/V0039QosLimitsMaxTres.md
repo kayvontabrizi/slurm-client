@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_qos_limits_max_tres import V0039QosLimitsMaxTres
+from slurm_client.models.v0039_qos_limits_max_tres import V0039QosLimitsMaxTres
 
 # TODO update the JSON string below
 json = "{}"

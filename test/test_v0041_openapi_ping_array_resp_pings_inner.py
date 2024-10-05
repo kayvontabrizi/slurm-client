@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_ping_array_resp_pings_inner import V0041OpenapiPingArrayRespPingsInner
+from slurm_client.models.v0041_openapi_ping_array_resp_pings_inner import V0041OpenapiPingArrayRespPingsInner
 
 class TestV0041OpenapiPingArrayRespPingsInner(unittest.TestCase):
     """V0041OpenapiPingArrayRespPingsInner unit test stubs"""

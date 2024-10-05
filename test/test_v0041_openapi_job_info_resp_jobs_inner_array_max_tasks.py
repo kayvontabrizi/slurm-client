@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_array_max_tasks import V0041OpenapiJobInfoRespJobsInnerArrayMaxTasks
+from slurm_client.models.v0041_openapi_job_info_resp_jobs_inner_array_max_tasks import V0041OpenapiJobInfoRespJobsInnerArrayMaxTasks
 
 class TestV0041OpenapiJobInfoRespJobsInnerArrayMaxTasks(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerArrayMaxTasks unit test stubs"""

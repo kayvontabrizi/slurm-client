@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.dbv0039_error import Dbv0039Error
+from slurm_client.models.dbv0039_error import Dbv0039Error
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_defaults import V0041OpenapiPartitionRespPartitionsInnerDefaults
+from slurm_client.models.v0041_openapi_partition_resp_partitions_inner_defaults import V0041OpenapiPartitionRespPartitionsInnerDefaults
 
 class TestV0041OpenapiPartitionRespPartitionsInnerDefaults(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerDefaults unit test stubs"""
@@ -37,15 +37,15 @@ class TestV0041OpenapiPartitionRespPartitionsInnerDefaults(unittest.TestCase):
         if include_optional:
             return V0041OpenapiPartitionRespPartitionsInnerDefaults(
                 memory_per_cpu = 56,
-                partition_memory_per_cpu = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu(
+                partition_memory_per_cpu = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                partition_memory_per_node = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node(
+                partition_memory_per_node = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                time = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time(
+                time = slurm_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

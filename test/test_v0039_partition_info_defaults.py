@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_partition_info_defaults import V0039PartitionInfoDefaults
+from slurm_client.models.v0039_partition_info_defaults import V0039PartitionInfoDefaults
 
 class TestV0039PartitionInfoDefaults(unittest.TestCase):
     """V0039PartitionInfoDefaults unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0039PartitionInfoDefaults(unittest.TestCase):
         if include_optional:
             return V0039PartitionInfoDefaults(
                 memory_per_cpu = 56,
-                time = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                time = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

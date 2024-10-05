@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_job_tres import V0039JobTres
+from slurm_client.models.v0039_job_tres import V0039JobTres
 
 class TestV0039JobTres(unittest.TestCase):
     """V0039JobTres unit test stubs"""
@@ -37,14 +37,14 @@ class TestV0039JobTres(unittest.TestCase):
         if include_optional:
             return V0039JobTres(
                 allocated = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 
                         count = 56, )
                     ],
                 requested = [
-                    openapi_client.models.v0/0/39_tres.v0.0.39_tres(
+                    slurm_client.models.v0/0/39_tres.v0.0.39_tres(
                         type = '', 
                         name = '', 
                         id = 56, 

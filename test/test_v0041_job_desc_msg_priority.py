@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_priority import V0041JobDescMsgPriority
+from slurm_client.models.v0041_job_desc_msg_priority import V0041JobDescMsgPriority
 
 class TestV0041JobDescMsgPriority(unittest.TestCase):
     """V0041JobDescMsgPriority unit test stubs"""

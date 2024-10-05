@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.dbv0039_response_associations_delete import Dbv0039ResponseAssociationsDelete
+from slurm_client.models.dbv0039_response_associations_delete import Dbv0039ResponseAssociationsDelete
 
 # TODO update the JSON string below
 json = "{}"

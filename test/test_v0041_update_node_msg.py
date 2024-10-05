@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_update_node_msg import V0041UpdateNodeMsg
+from slurm_client.models.v0041_update_node_msg import V0041UpdateNodeMsg
 
 class TestV0041UpdateNodeMsg(unittest.TestCase):
     """V0041UpdateNodeMsg unit test stubs"""
@@ -60,11 +60,11 @@ class TestV0041UpdateNodeMsg(unittest.TestCase):
                     ],
                 reason = '',
                 reason_uid = '',
-                resume_after = openapi_client.models.v0_0_41_update_node_msg_resume_after.v0_0_41_update_node_msg_resume_after(
+                resume_after = slurm_client.models.v0_0_41_update_node_msg_resume_after.v0_0_41_update_node_msg_resume_after(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                weight = openapi_client.models.v0_0_41_update_node_msg_weight.v0_0_41_update_node_msg_weight(
+                weight = slurm_client.models.v0_0_41_update_node_msg_weight.v0_0_41_update_node_msg_weight(
                     set = True, 
                     infinite = True, 
                     number = 56, )

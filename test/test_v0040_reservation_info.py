@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0040_reservation_info import V0040ReservationInfo
+from slurm_client.models.v0040_reservation_info import V0040ReservationInfo
 
 class TestV0040ReservationInfo(unittest.TestCase):
     """V0040ReservationInfo unit test stubs"""
@@ -40,11 +40,11 @@ class TestV0040ReservationInfo(unittest.TestCase):
                 burst_buffer = '',
                 core_count = 56,
                 core_specializations = [
-                    openapi_client.models.v0/0/40_reservation_core_spec.v0.0.40_reservation_core_spec(
+                    slurm_client.models.v0/0/40_reservation_core_spec.v0.0.40_reservation_core_spec(
                         node = '', 
                         core = '', )
                     ],
-                end_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                end_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
@@ -59,16 +59,16 @@ class TestV0040ReservationInfo(unittest.TestCase):
                 node_count = 56,
                 node_list = '',
                 partition = '',
-                purge_completed = openapi_client.models.v0_0_40_reservation_info_purge_completed.v0_0_40_reservation_info_purge_completed(
-                    time = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                purge_completed = slurm_client.models.v0_0_40_reservation_info_purge_completed.v0_0_40_reservation_info_purge_completed(
+                    time = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                         set = True, 
                         infinite = True, 
                         number = 56, ), ),
-                start_time = openapi_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
+                start_time = slurm_client.models.v0/0/40_uint64_no_val.v0.0.40_uint64_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),
-                watts = openapi_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
+                watts = slurm_client.models.v0/0/40_uint32_no_val.v0.0.40_uint32_no_val(
                     set = True, 
                     infinite = True, 
                     number = 56, ),

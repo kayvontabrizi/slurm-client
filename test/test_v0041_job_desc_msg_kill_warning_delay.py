@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_kill_warning_delay import V0041JobDescMsgKillWarningDelay
+from slurm_client.models.v0041_job_desc_msg_kill_warning_delay import V0041JobDescMsgKillWarningDelay
 
 class TestV0041JobDescMsgKillWarningDelay(unittest.TestCase):
     """V0041JobDescMsgKillWarningDelay unit test stubs"""

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0039_reservation_core_spec import V0039ReservationCoreSpec
+from slurm_client.models.v0039_reservation_core_spec import V0039ReservationCoreSpec
 
 # TODO update the JSON string below
 json = "{}"

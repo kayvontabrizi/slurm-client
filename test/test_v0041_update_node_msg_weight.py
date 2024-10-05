@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_update_node_msg_weight import V0041UpdateNodeMsgWeight
+from slurm_client.models.v0041_update_node_msg_weight import V0041UpdateNodeMsgWeight
 
 class TestV0041UpdateNodeMsgWeight(unittest.TestCase):
     """V0041UpdateNodeMsgWeight unit test stubs"""

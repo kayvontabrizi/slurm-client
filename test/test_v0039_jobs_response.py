@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0039_jobs_response import V0039JobsResponse
+from slurm_client.models.v0039_jobs_response import V0039JobsResponse
 
 class TestV0039JobsResponse(unittest.TestCase):
     """V0039JobsResponse unit test stubs"""
@@ -36,40 +36,40 @@ class TestV0039JobsResponse(unittest.TestCase):
         model = V0039JobsResponse()
         if include_optional:
             return V0039JobsResponse(
-                meta = openapi_client.models.v0/0/39_meta.v0.0.39_meta(
-                    plugin = openapi_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
+                meta = slurm_client.models.v0/0/39_meta.v0.0.39_meta(
+                    plugin = slurm_client.models.v0_0_39_meta_plugin.v0_0_39_meta_plugin(
                         type = '', 
                         name = '', ), 
-                    slurm = openapi_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
-                        version = openapi_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
+                    slurm = slurm_client.models.v0_0_39_meta_slurm.v0_0_39_meta_Slurm(
+                        version = slurm_client.models.v0_0_39_meta_slurm_version.v0_0_39_meta_Slurm_version(
                             major = 56, 
                             micro = 56, 
                             minor = 56, ), 
                         release = '', ), ),
                 errors = [
-                    openapi_client.models.v0/0/39_error.v0.0.39_error(
+                    slurm_client.models.v0/0/39_error.v0.0.39_error(
                         error_number = 56, 
                         error = '', 
                         source = '', 
                         description = '', )
                     ],
                 warnings = [
-                    openapi_client.models.v0/0/39_warning.v0.0.39_warning(
+                    slurm_client.models.v0/0/39_warning.v0.0.39_warning(
                         warning = '', 
                         source = '', 
                         description = '', )
                     ],
                 jobs = [
-                    openapi_client.models.v0/0/39_job_info.v0.0.39_job_info(
+                    slurm_client.models.v0/0/39_job_info.v0.0.39_job_info(
                         account = '', 
                         accrue_time = 56, 
                         admin_comment = '', 
                         allocating_node = '', 
-                        array_job_id = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        array_job_id = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        array_task_id = openapi_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
+                        array_task_id = slurm_client.models.v0/0/39_uint32_no_val.v0.0.39_uint32_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -93,15 +93,15 @@ class TestV0039JobsResponse(unittest.TestCase):
                         contiguous = True, 
                         core_spec = 56, 
                         thread_spec = 56, 
-                        cores_per_socket = openapi_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
+                        cores_per_socket = slurm_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        billable_tres = openapi_client.models.v0/0/39_float64_no_val.v0.0.39_float64_no_val(
+                        billable_tres = slurm_client.models.v0/0/39_float64_no_val.v0.0.39_float64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 1.337, ), 
-                        cpus_per_task = openapi_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
+                        cpus_per_task = slurm_client.models.v0/0/39_uint16_no_val.v0.0.39_uint16_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
@@ -133,7 +133,7 @@ class TestV0039JobsResponse(unittest.TestCase):
                         het_job_id_set = '', 
                         het_job_offset = , 
                         job_id = 56, 
-                        job_resources = openapi_client.models.v0/0/39_job_res.v0.0.39_job_res(
+                        job_resources = slurm_client.models.v0/0/39_job_res.v0.0.39_job_res(
                             nodes = '', 
                             allocated_cores = 56, 
                             allocated_cpus = 56, 
@@ -169,17 +169,17 @@ class TestV0039JobsResponse(unittest.TestCase):
                         tasks = , 
                         partition = '', 
                         prefer = '', 
-                        memory_per_cpu = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                        memory_per_cpu = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
-                        memory_per_node = openapi_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
+                        memory_per_node = slurm_client.models.v0/0/39_uint64_no_val.v0.0.39_uint64_no_val(
                             set = True, 
                             infinite = True, 
                             number = 56, ), 
                         minimum_cpus_per_node = , 
                         minimum_tmp_disk_per_node = , 
-                        power = openapi_client.models.v0_0_39_job_info_power.v0_0_39_job_info_power(), 
+                        power = slurm_client.models.v0_0_39_job_info_power.v0_0_39_job_info_power(), 
                         preempt_time = 56, 
                         preemptable_time = 56, 
                         pre_sus_time = 56, 

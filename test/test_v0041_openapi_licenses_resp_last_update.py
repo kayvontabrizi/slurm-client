@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_licenses_resp_last_update import V0041OpenapiLicensesRespLastUpdate
+from slurm_client.models.v0041_openapi_licenses_resp_last_update import V0041OpenapiLicensesRespLastUpdate
 
 class TestV0041OpenapiLicensesRespLastUpdate(unittest.TestCase):
     """V0041OpenapiLicensesRespLastUpdate unit test stubs"""

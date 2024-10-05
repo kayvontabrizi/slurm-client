@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_maximums_nodes import V0041OpenapiPartitionRespPartitionsInnerMaximumsNodes
+from slurm_client.models.v0041_openapi_partition_resp_partitions_inner_maximums_nodes import V0041OpenapiPartitionRespPartitionsInnerMaximumsNodes
 
 class TestV0041OpenapiPartitionRespPartitionsInnerMaximumsNodes(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerMaximumsNodes unit test stubs"""
