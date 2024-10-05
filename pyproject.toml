@@ -5,7 +5,7 @@ description = "Slurm REST API"
 authors = ["SchedMD LLC <sales@schedmd.com>"]
 license = "Apache 2.0"
 readme = "README.md"
-repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
+repository = "https://github.com/kayvontabrizi/slurm-client"
 keywords = ["OpenAPI", "OpenAPI-Generator", "Slurm REST API"]
 include = ["slurm_client/py.typed"]
 
