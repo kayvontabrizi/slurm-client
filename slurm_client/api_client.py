@@ -255,7 +255,8 @@ class ApiClient:
         header_params=None,
         body=None,
         post_params=None,
-        _request_timeout=None
+        _request_timeout=None,
+        _request_retries=None,
     ) -> rest.RESTResponse:
         """Makes the HTTP request (synchronous)
         :param method: Method to call.
@@ -266,6 +267,7 @@ class ApiClient:
         :param post_params dict: Request post form parameters,
             for `application/x-www-form-urlencoded`, `multipart/form-data`.
         :param _request_timeout: timeout setting for this request.
+        :param _request_retries: retries setting for this request.
         :return: RESTResponse
         """
 
@@ -275,7 +277,8 @@ class ApiClient:
                 method, url,
                 headers=header_params,
                 body=body, post_params=post_params,
-                _request_timeout=_request_timeout
+                _request_timeout=_request_timeout,
+                _request_retries=_request_retries,
             )
 
         except ApiException as e:

@@ -119,7 +119,8 @@ class RESTClientObject:
         headers=None,
         body=None,
         post_params=None,
-        _request_timeout=None
+        _request_timeout=None,
+        _request_retries=None,
     ):
         """Perform requests.
 
@@ -167,6 +168,19 @@ class RESTClientObject:
                     read=_request_timeout[1]
                 )
 
+        retries = 1
+        if _request_retries:
+            if isinstance(_request_retries, int):
+                retries = urllib3.Retry(total=_request_retries)
+            elif (
+                    isinstance(_request_retries, tuple)
+                    and len(_request_retries) == 2
+                ):
+                retries = urllib3.Retry(
+                    connect=_request_retries[0],
+                    read=_request_retries[1]
+                )
+
         try:
             # For `POST`, `PUT`, `PATCH`, `OPTIONS`, `DELETE`
             if method in ['POST', 'PUT', 'PATCH', 'OPTIONS', 'DELETE']:
@@ -184,6 +198,7 @@ class RESTClientObject:
                         method,
                         url,
                         body=request_body,
+                        retries=retries,
                         timeout=timeout,
                         headers=headers,
                         preload_content=False
@@ -194,6 +209,7 @@ class RESTClientObject:
                         url,
                         fields=post_params,
                         encode_multipart=False,
+                        retries=retries,
                         timeout=timeout,
                         headers=headers,
                         preload_content=False
@@ -210,6 +226,7 @@ class RESTClientObject:
                         url,
                         fields=post_params,
                         encode_multipart=True,
+                        retries=retries,
                         timeout=timeout,
                         headers=headers,
                         preload_content=False
@@ -222,6 +239,7 @@ class RESTClientObject:
                         method,
                         url,
                         body=body,
+                        retries=retries,
                         timeout=timeout,
                         headers=headers,
                         preload_content=False
@@ -233,6 +251,7 @@ class RESTClientObject:
                         url,
                         body=request_body,
                         preload_content=False,
+                        retries=retries,
                         timeout=timeout,
                         headers=headers)
                 else:
@@ -247,6 +266,7 @@ class RESTClientObject:
                     method,
                     url,
                     fields={},
+                    retries=retries,
                     timeout=timeout,
                     headers=headers,
                     preload_content=False

@@ -29,18 +29,19 @@ class V0041OpenapiJobInfoRespJobsInnerJobResources(BaseModel):
     """
     Resources used by the job
     """ # noqa: E501
-    select_type: List[StrictStr] = Field(description="Scheduler consumable resource selection type")
+    select_type: Optional[List[StrictStr]] = Field(description="Scheduler consumable resource selection type", default=None)
     nodes: Optional[V0041OpenapiJobInfoRespJobsInnerJobResourcesNodes] = None
-    cpus: StrictInt = Field(description="Number of allocated CPUs")
-    threads_per_core: V0041OpenapiJobInfoRespJobsInnerJobResourcesThreadsPerCore
+    cpus: Optional[StrictInt] = Field(description="Number of allocated CPUs", default=None)
+    threads_per_core: Optional[V0041OpenapiJobInfoRespJobsInnerJobResourcesThreadsPerCore] = None
     __properties: ClassVar[List[str]] = ["select_type", "nodes", "cpus", "threads_per_core"]
 
     @field_validator('select_type')
     def select_type_validate_enum(cls, value):
         """Validates the enum"""
-        for i in value:
-            if i not in set(['CPU', 'SOCKET', 'CORE', 'BOARD', 'MEMORY', 'ONE_TASK_PER_CORE', 'PACK_NODES', 'CORE_DEFAULT_DIST_BLOCK', 'LLN', 'LINEAR']):
-                raise ValueError("each list item must be one of ('CPU', 'SOCKET', 'CORE', 'BOARD', 'MEMORY', 'ONE_TASK_PER_CORE', 'PACK_NODES', 'CORE_DEFAULT_DIST_BLOCK', 'LLN', 'LINEAR')")
+        if value:
+            for i in value:
+                if i not in set(['CPU', 'SOCKET', 'CORE', 'BOARD', 'MEMORY', 'ONE_TASK_PER_CORE', 'PACK_NODES', 'CORE_DEFAULT_DIST_BLOCK', 'LLN', 'LINEAR']):
+                    raise ValueError("each list item must be one of ('CPU', 'SOCKET', 'CORE', 'BOARD', 'MEMORY', 'ONE_TASK_PER_CORE', 'PACK_NODES', 'CORE_DEFAULT_DIST_BLOCK', 'LLN', 'LINEAR')")
         return value
 
     model_config = ConfigDict(
