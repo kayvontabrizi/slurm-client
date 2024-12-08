@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **core_specializations** | [**List[V0040ReservationCoreSpec]**](V0040ReservationCoreSpec.md) |  | [optional] 
 **end_time** | [**V0040Uint64NoVal**](V0040Uint64NoVal.md) |  | [optional] 
 **features** | **str** | Features | [optional] 
-**flags** | **List[str]** | Flags associated with the reservation | [optional] 
+**flags** | **List[str]** |  | [optional] 
 **groups** | **str** | Groups | [optional] 
 **licenses** | **str** | Licenses | [optional] 
 **max_start_delay** | **int** | MaxStartDelay in seconds | [optional] 

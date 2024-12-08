@@ -16,8 +16,8 @@ Name | Type | Description | Notes
 **effective_usage** | **float** | Effective, normalized usage | [optional] 
 **usage_normalized** | [**V0040Float64NoVal**](V0040Float64NoVal.md) |  | [optional] 
 **usage** | **int** | Measure of tresbillableunits usage | [optional] 
-**fairshare** | [**V0041OpenapiSharesRespSharesSharesInnerFairshare**](V0041OpenapiSharesRespSharesSharesInnerFairshare.md) |  | [optional] 
-**type** | **List[str]** | User or account association | [optional] 
+**fairshare** | [**V0040AssocSharesObjWrapFairshare**](V0040AssocSharesObjWrapFairshare.md) |  | [optional] 
+**type** | **List[str]** |  | [optional] 
 
 ## Example
 

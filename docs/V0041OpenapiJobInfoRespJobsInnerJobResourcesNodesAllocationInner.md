@@ -8,8 +8,8 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **index** | **int** | Node index | 
 **name** | **str** | Node name | 
-**cpus** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerCpus.md) |  | [optional] 
-**memory** | [**V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerMemory.md) |  | [optional] 
+**cpus** | [**V0042JobResNodeCpus**](V0042JobResNodeCpus.md) |  | [optional] 
+**memory** | [**V0042JobResNodeMemory**](V0042JobResNodeMemory.md) |  | [optional] 
 **sockets** | [**List[V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner]**](V0041OpenapiJobInfoRespJobsInnerJobResourcesNodesAllocationInnerSocketsInner.md) | Socket allocations in node | 
 
 ## Example

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **address** | **List[str]** |  | [optional] 
 **hostname** | **List[str]** |  | [optional] 
 **name** | **List[str]** |  | [optional] 
-**state** | **List[str]** | New state to assign to the node | [optional] 
+**state** | **List[str]** |  | [optional] 
 **reason** | **str** | Reason for node being DOWN or DRAINING | [optional] 
 **reason_uid** | **str** | User ID to associate with the reason (needed if user root is sending message) | [optional] 
 **resume_after** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 

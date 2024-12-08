@@ -6,10 +6,10 @@ Slurm meta values
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**plugin** | [**V0041OpenapiSharesRespMetaPlugin**](V0041OpenapiSharesRespMetaPlugin.md) |  | [optional] 
-**client** | [**V0041OpenapiSharesRespMetaClient**](V0041OpenapiSharesRespMetaClient.md) |  | [optional] 
+**plugin** | [**V0042OpenapiMetaPlugin**](V0042OpenapiMetaPlugin.md) |  | [optional] 
+**client** | [**V0042OpenapiMetaClient**](V0042OpenapiMetaClient.md) |  | [optional] 
 **command** | **List[str]** | CLI command (if applicable) | [optional] 
-**slurm** | [**V0041OpenapiSharesRespMetaSlurm**](V0041OpenapiSharesRespMetaSlurm.md) |  | [optional] 
+**slurm** | [**V0042OpenapiMetaSlurm**](V0042OpenapiMetaSlurm.md) |  | [optional] 
 
 ## Example
 

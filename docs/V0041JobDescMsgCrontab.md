@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **day_of_week** | **str** | Ranged string specifying eligible day of week values (e.g.0-3,7) | [optional] 
 **specification** | **str** | Time specification (* means valid for all allowed values) - minute hour day_of_month month day_of_week | [optional] 
 **command** | **str** | Command to run | [optional] 
-**line** | [**V0041JobDescMsgCrontabLine**](V0041JobDescMsgCrontabLine.md) |  | [optional] 
+**line** | [**V0042CronEntryLine**](V0042CronEntryLine.md) |  | [optional] 
 
 ## Example
 

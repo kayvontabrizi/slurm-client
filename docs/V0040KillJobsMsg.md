@@ -6,14 +6,14 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **account** | **str** | Filter jobs to a specific account | [optional] 
-**flags** | **List[str]** | Filter jobs according to flags | [optional] 
+**flags** | **List[str]** |  | [optional] 
 **job_name** | **str** | Filter jobs to a specific name | [optional] 
 **jobs** | **List[str]** |  | [optional] 
 **partition** | **str** | Filter jobs to a specific partition | [optional] 
 **qos** | **str** | Filter jobs to a specific QOS | [optional] 
 **reservation** | **str** | Filter jobs to a specific reservation | [optional] 
 **signal** | **str** | Signal to send to jobs | [optional] 
-**job_state** | **List[str]** | Filter jobs to a specific state | [optional] 
+**job_state** | **List[str]** |  | [optional] 
 **user_id** | **str** | Filter jobs to a specific numeric user id | [optional] 
 **user_name** | **str** | Filter jobs to a specific user name | [optional] 
 **wckey** | **str** | Filter jobs to a specific wckey | [optional] 

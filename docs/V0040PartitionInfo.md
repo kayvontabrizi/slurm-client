@@ -5,23 +5,23 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**nodes** | [**V0041OpenapiPartitionRespPartitionsInnerNodes**](V0041OpenapiPartitionRespPartitionsInnerNodes.md) |  | [optional] 
-**accounts** | [**V0041OpenapiPartitionRespPartitionsInnerAccounts**](V0041OpenapiPartitionRespPartitionsInnerAccounts.md) |  | [optional] 
-**groups** | [**V0041OpenapiPartitionRespPartitionsInnerGroups**](V0041OpenapiPartitionRespPartitionsInnerGroups.md) |  | [optional] 
-**qos** | [**V0041OpenapiPartitionRespPartitionsInnerQos**](V0041OpenapiPartitionRespPartitionsInnerQos.md) |  | [optional] 
+**nodes** | [**V0042PartitionInfoNodes**](V0042PartitionInfoNodes.md) |  | [optional] 
+**accounts** | [**V0042PartitionInfoAccounts**](V0042PartitionInfoAccounts.md) |  | [optional] 
+**groups** | [**V0042PartitionInfoGroups**](V0042PartitionInfoGroups.md) |  | [optional] 
+**qos** | [**V0042PartitionInfoQos**](V0042PartitionInfoQos.md) |  | [optional] 
 **alternate** | **str** | Alternate | [optional] 
-**tres** | [**V0041OpenapiPartitionRespPartitionsInnerTres**](V0041OpenapiPartitionRespPartitionsInnerTres.md) |  | [optional] 
+**tres** | [**V0042PartitionInfoTres**](V0042PartitionInfoTres.md) |  | [optional] 
 **cluster** | **str** | Cluster name | [optional] 
-**cpus** | [**V0041OpenapiPartitionRespPartitionsInnerCpus**](V0041OpenapiPartitionRespPartitionsInnerCpus.md) |  | [optional] 
+**cpus** | [**V0042PartitionInfoCpus**](V0042PartitionInfoCpus.md) |  | [optional] 
 **defaults** | [**V0040PartitionInfoDefaults**](V0040PartitionInfoDefaults.md) |  | [optional] 
 **grace_time** | **int** | GraceTime | [optional] 
 **maximums** | [**V0040PartitionInfoMaximums**](V0040PartitionInfoMaximums.md) |  | [optional] 
-**minimums** | [**V0041OpenapiPartitionRespPartitionsInnerMinimums**](V0041OpenapiPartitionRespPartitionsInnerMinimums.md) |  | [optional] 
+**minimums** | [**V0042PartitionInfoMinimums**](V0042PartitionInfoMinimums.md) |  | [optional] 
 **name** | **str** | PartitionName | [optional] 
 **node_sets** | **str** | NodeSets | [optional] 
-**priority** | [**V0041OpenapiPartitionRespPartitionsInnerPriority**](V0041OpenapiPartitionRespPartitionsInnerPriority.md) |  | [optional] 
+**priority** | [**V0042PartitionInfoPriority**](V0042PartitionInfoPriority.md) |  | [optional] 
 **timeouts** | [**V0040PartitionInfoTimeouts**](V0040PartitionInfoTimeouts.md) |  | [optional] 
-**partition** | [**V0041OpenapiPartitionRespPartitionsInnerPartition**](V0041OpenapiPartitionRespPartitionsInnerPartition.md) |  | [optional] 
+**partition** | [**V0040PartitionInfoPartition**](V0040PartitionInfoPartition.md) |  | [optional] 
 **suspend_time** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | [optional] 
 
 ## Example

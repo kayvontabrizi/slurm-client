@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**error** | [**V0041OpenapiKillJobsRespStatusInnerError**](V0041OpenapiKillJobsRespStatusInnerError.md) |  | [optional] 
+**error** | [**V0042KillJobsRespJobError**](V0042KillJobsRespJobError.md) |  | [optional] 
 **step_id** | **str** | Job or Step ID that signaling failed | 
 **job_id** | [**V0040Uint32NoVal**](V0040Uint32NoVal.md) |  | 
-**federation** | [**V0041OpenapiKillJobsRespStatusInnerFederation**](V0041OpenapiKillJobsRespStatusInnerFederation.md) |  | [optional] 
+**federation** | [**V0042KillJobsRespJobFederation**](V0042KillJobsRespJobFederation.md) |  | [optional] 
 
 ## Example
 
